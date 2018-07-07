@@ -13,9 +13,7 @@ namespace NinjaBoard
 
         private Player Player { get; set; }
 
-        private Button Selected { get; set; }
-
-        private ApiProxy Api { get; set; }
+        private Button Coin { get; set; }
 
         #endregion
 
@@ -24,8 +22,6 @@ namespace NinjaBoard
         public Board()
         {
             InitializeComponent();
-
-            Api = new ApiProxy();
         }
 
         #endregion
@@ -58,24 +54,24 @@ namespace NinjaBoard
 
         private void OnEntityClicked(object sender, EventArgs e)
         {
-            var person = sender as Button;
+            var coin = sender as Button;
 
-            if (person != null)
+            if (coin != null)
             {
-                if (Selected != null)
+                if (Coin != null)
                 {
-                    if (Selected.Name == person.Name)
+                    if (Coin.Name == coin.Name)
                     {
                         Unselect();
                     }
                     else
                     {
-                        Replace(Selected, person);
+                        Replace(Coin, coin);
                     }
                 }
                 else
                 {
-                    Select(person);
+                    Select(coin);
                 }
             }
 
@@ -84,14 +80,14 @@ namespace NinjaBoard
 
         private void OnLocationClicked(object sender, EventArgs e)
         {
-            if (Selected != null)
+            if (Coin != null)
             {
-                var location = sender as Panel;
+                var position = sender as Panel;
 
-                if (location != null)
+                if (position != null)
                 {
-                    SetLocation(Selected, location);
-                    ReversePlayer();
+                    SetLocation(Coin, position);
+                    Change();
                 }
             }
 
@@ -122,41 +118,41 @@ namespace NinjaBoard
 
         #region Helpers
 
-        private void SetLocation(Button person, Panel location)
+        private void SetLocation(Button coin, Panel position)
         {
-            var source = person.Parent as Panel;
+            var source = coin.Parent as Panel;
 
             if (source != null)
             {
-                person.Dock = DockStyle.None;
-                source.Controls.Remove(person);
-                location.Controls.Add(person);
-                person.Dock = DockStyle.Fill;
+                coin.Dock = DockStyle.None;
+                source.Controls.Remove(coin);
+                position.Controls.Add(coin);
+                coin.Dock = DockStyle.Fill;
                 Unselect();
             }
         }
 
-        private void Replace(Button person, Button target)
+        private void Replace(Button coin, Button target)
         {
-            var location = target.Parent as Panel;
-            location.Controls.Remove(target);
-            person.Controls.Remove(person);
-            location.Controls.Add(person);
+            var position = target.Parent as Panel;
+            position.Controls.Remove(target);
+            coin.Controls.Remove(coin);
+            position.Controls.Add(coin);
             Unselect();
         }
 
-        private void Select(Button person)
+        private void Select(Button coin)
         {
             Unselect();
-            Selected = person;
-            person.FlatStyle = FlatStyle.Flat;
-            person.FlatAppearance.BorderSize = 2;
-            person.FlatAppearance.BorderColor = Color.Red;
+            Coin = coin;
+            coin.FlatStyle = FlatStyle.Flat;
+            coin.FlatAppearance.BorderSize = 2;
+            coin.FlatAppearance.BorderColor = Color.Red;
         }
 
         private void Unselect()
         {
-            Selected = null;
+            Coin = null;
 
             foreach (var i in GetControls(this, typeof(Button)))
             {
@@ -206,29 +202,7 @@ namespace NinjaBoard
             SetLocation(White_Pawn_8, H2);
         }
 
-        private void Disable(Player player)
-        {
-            foreach (var i in GetControls(this, typeof(Button)))
-            {
-                var person = i as Button;
-
-                if (person != null && person.Tag != null)
-                {
-                    if (person.Tag.ToString().Equals(player.ToString()))
-                    {
-                        person.Enabled = false;
-                        person.Parent.Enabled = false;
-                    }
-                    else
-                    {
-                        person.Enabled = true;
-                        person.Parent.Enabled = true;
-                    }
-                }
-            }
-        }
-
-        private void ReversePlayer()
+        private void Change()
         {
             if (tsmiBlackPlayer.Checked)
             {

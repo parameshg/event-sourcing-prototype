@@ -1,6 +1,6 @@
 ﻿namespace NinjaBoard.Model
 {
-    public enum Person
+    public enum Coin
     {
         Black_Rook_1,
         Black_Rook_2,
