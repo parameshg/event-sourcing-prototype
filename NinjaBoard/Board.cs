@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
+using NinjaBoard.Business.Services;
+using NinjaBoard.Database.Repositories;
 using NinjaBoard.Model;
 
 namespace NinjaBoard
@@ -11,9 +13,13 @@ namespace NinjaBoard
     {
         #region Properties
 
+        private Guid Game { get; set; }
+
         private Player Player { get; set; }
 
         private Button Coin { get; set; }
+
+        private IServer Server { get; set; }
 
         #endregion
 
@@ -22,6 +28,10 @@ namespace NinjaBoard
         public Board()
         {
             InitializeComponent();
+
+            Server = new Server(new Repository());
+
+            Game = Server.CreateGame();
         }
 
         #endregion
@@ -30,13 +40,18 @@ namespace NinjaBoard
 
         private void OnLoad(object sender, EventArgs e)
         {
-            OnWhitePlayer(sender, e);
+            foreach (var i in Server.GetGameById(Game))
+                SetLocation(GetCoin(i.Key), GetPosition(i.Value));
+
+            Player = Player.White;
 
             Application.DoEvents();
         }
 
         private void OnNewGame(object sender, EventArgs e)
         {
+            Game = Server.CreateGame();
+
             Reset();
 
             Application.DoEvents();
@@ -90,26 +105,6 @@ namespace NinjaBoard
                     Change();
                 }
             }
-
-            Application.DoEvents();
-        }
-
-        private void OnBlackPlayer(object sender, EventArgs e)
-        {
-            Player = Player.Black;
-
-            tsmiBlackPlayer.Checked = true;
-            tsmiWhitePlayer.Checked = false;
-
-            Application.DoEvents();
-        }
-
-        private void OnWhitePlayer(object sender, EventArgs e)
-        {
-            Player = Player.White;
-
-            tsmiBlackPlayer.Checked = false;
-            tsmiWhitePlayer.Checked = true;
 
             Application.DoEvents();
         }
@@ -204,14 +199,16 @@ namespace NinjaBoard
 
         private void Change()
         {
-            if (tsmiBlackPlayer.Checked)
+            if (PlayerText.Text.Equals(Player.White.ToString()))
             {
-                OnWhitePlayer(null, new EventArgs());
+                Player = Player.Black;
             }
             else
             {
-                OnBlackPlayer(null, new EventArgs());
+                Player = Player.White;
             }
+
+            PlayerText.Text = Player.ToString();
         }
 
         private IEnumerable<Control> GetControls(Control control, Type type)
@@ -219,6 +216,48 @@ namespace NinjaBoard
             var controls = control.Controls.Cast<Control>();
 
             return controls.SelectMany(ctrl => GetControls(ctrl, type)).Concat(controls).Where(c => c.GetType() == type);
+        }
+
+        private Button GetCoin(Coin coin)
+        {
+            Button result = null;
+
+            foreach (var i in GetControls(this, typeof(Button)))
+            {
+                var button = i as Button;
+
+                if (button != null)
+                {
+                    if (button.Name == coin.ToString())
+                    {
+                        result = button;
+                        break;
+                    }
+                }
+            }
+
+            return result;
+        }
+
+        private Panel GetPosition(Position position)
+        {
+            Panel result = null;
+
+            foreach (var i in GetControls(this, typeof(Panel)))
+            {
+                var panel = i as Panel;
+
+                if (panel != null)
+                {
+                    if (panel.Name == position.ToString())
+                    {
+                        result = panel;
+                        break;
+                    }
+                }
+            }
+
+            return result;
         }
 
         #endregion

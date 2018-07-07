@@ -31,97 +31,99 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Board));
             this.tlpMain = new System.Windows.Forms.TableLayoutPanel();
             this.H1 = new System.Windows.Forms.Panel();
-            this.White_Rook_2 = new System.Windows.Forms.Button();
             this.G1 = new System.Windows.Forms.Panel();
-            this.White_Knight_2 = new System.Windows.Forms.Button();
             this.F1 = new System.Windows.Forms.Panel();
-            this.White_Bishop_2 = new System.Windows.Forms.Button();
             this.E1 = new System.Windows.Forms.Panel();
-            this.White_Queen = new System.Windows.Forms.Button();
             this.D1 = new System.Windows.Forms.Panel();
-            this.White_King = new System.Windows.Forms.Button();
             this.C1 = new System.Windows.Forms.Panel();
-            this.White_Bishop_1 = new System.Windows.Forms.Button();
             this.B1 = new System.Windows.Forms.Panel();
-            this.White_Knight_1 = new System.Windows.Forms.Button();
             this.A1 = new System.Windows.Forms.Panel();
-            this.White_Rook_1 = new System.Windows.Forms.Button();
             this.H8 = new System.Windows.Forms.Panel();
-            this.Black_Rook_2 = new System.Windows.Forms.Button();
             this.G8 = new System.Windows.Forms.Panel();
-            this.Black_Knight_2 = new System.Windows.Forms.Button();
             this.F8 = new System.Windows.Forms.Panel();
-            this.Black_Bishop_2 = new System.Windows.Forms.Button();
             this.E8 = new System.Windows.Forms.Panel();
-            this.Black_King = new System.Windows.Forms.Button();
             this.D8 = new System.Windows.Forms.Panel();
-            this.Black_Queen = new System.Windows.Forms.Button();
             this.C8 = new System.Windows.Forms.Panel();
-            this.Black_Bishop_1 = new System.Windows.Forms.Button();
             this.B8 = new System.Windows.Forms.Panel();
-            this.Black_Knight_1 = new System.Windows.Forms.Button();
             this.H2 = new System.Windows.Forms.Panel();
-            this.White_Pawn_8 = new System.Windows.Forms.Button();
             this.H3 = new System.Windows.Forms.Panel();
+            this.White_Rook_2 = new System.Windows.Forms.Button();
             this.H4 = new System.Windows.Forms.Panel();
+            this.White_Pawn_8 = new System.Windows.Forms.Button();
             this.H5 = new System.Windows.Forms.Panel();
-            this.H6 = new System.Windows.Forms.Panel();
-            this.G2 = new System.Windows.Forms.Panel();
-            this.White_Pawn_7 = new System.Windows.Forms.Button();
-            this.G3 = new System.Windows.Forms.Panel();
-            this.G4 = new System.Windows.Forms.Panel();
-            this.G5 = new System.Windows.Forms.Panel();
-            this.G6 = new System.Windows.Forms.Panel();
-            this.F2 = new System.Windows.Forms.Panel();
-            this.White_Pawn_6 = new System.Windows.Forms.Button();
-            this.F3 = new System.Windows.Forms.Panel();
-            this.F4 = new System.Windows.Forms.Panel();
-            this.F5 = new System.Windows.Forms.Panel();
-            this.F6 = new System.Windows.Forms.Panel();
-            this.E2 = new System.Windows.Forms.Panel();
-            this.White_Pawn_5 = new System.Windows.Forms.Button();
-            this.E3 = new System.Windows.Forms.Panel();
-            this.E4 = new System.Windows.Forms.Panel();
-            this.E5 = new System.Windows.Forms.Panel();
-            this.E6 = new System.Windows.Forms.Panel();
-            this.D2 = new System.Windows.Forms.Panel();
-            this.White_Pawn_4 = new System.Windows.Forms.Button();
-            this.D3 = new System.Windows.Forms.Panel();
-            this.D4 = new System.Windows.Forms.Panel();
-            this.D5 = new System.Windows.Forms.Panel();
-            this.D6 = new System.Windows.Forms.Panel();
-            this.C2 = new System.Windows.Forms.Panel();
-            this.White_Pawn_3 = new System.Windows.Forms.Button();
-            this.C3 = new System.Windows.Forms.Panel();
-            this.C4 = new System.Windows.Forms.Panel();
-            this.C5 = new System.Windows.Forms.Panel();
-            this.C6 = new System.Windows.Forms.Panel();
-            this.B2 = new System.Windows.Forms.Panel();
-            this.White_Pawn_2 = new System.Windows.Forms.Button();
-            this.B3 = new System.Windows.Forms.Panel();
-            this.B4 = new System.Windows.Forms.Panel();
-            this.B5 = new System.Windows.Forms.Panel();
-            this.B6 = new System.Windows.Forms.Panel();
-            this.A2 = new System.Windows.Forms.Panel();
-            this.White_Pawn_1 = new System.Windows.Forms.Button();
-            this.A3 = new System.Windows.Forms.Panel();
-            this.A4 = new System.Windows.Forms.Panel();
-            this.A5 = new System.Windows.Forms.Panel();
-            this.A6 = new System.Windows.Forms.Panel();
-            this.H7 = new System.Windows.Forms.Panel();
             this.Black_Pawn_8 = new System.Windows.Forms.Button();
-            this.G7 = new System.Windows.Forms.Panel();
+            this.H6 = new System.Windows.Forms.Panel();
+            this.Black_Rook_2 = new System.Windows.Forms.Button();
+            this.G2 = new System.Windows.Forms.Panel();
+            this.G3 = new System.Windows.Forms.Panel();
+            this.White_Knight_2 = new System.Windows.Forms.Button();
+            this.G4 = new System.Windows.Forms.Panel();
+            this.White_Pawn_7 = new System.Windows.Forms.Button();
+            this.G5 = new System.Windows.Forms.Panel();
             this.Black_Pawn_7 = new System.Windows.Forms.Button();
-            this.F7 = new System.Windows.Forms.Panel();
+            this.G6 = new System.Windows.Forms.Panel();
+            this.Black_Knight_2 = new System.Windows.Forms.Button();
+            this.F2 = new System.Windows.Forms.Panel();
+            this.F3 = new System.Windows.Forms.Panel();
+            this.White_Bishop_2 = new System.Windows.Forms.Button();
+            this.F4 = new System.Windows.Forms.Panel();
+            this.White_Pawn_6 = new System.Windows.Forms.Button();
+            this.F5 = new System.Windows.Forms.Panel();
             this.Black_Pawn_6 = new System.Windows.Forms.Button();
-            this.E7 = new System.Windows.Forms.Panel();
+            this.F6 = new System.Windows.Forms.Panel();
+            this.Black_Bishop_2 = new System.Windows.Forms.Button();
+            this.E2 = new System.Windows.Forms.Panel();
+            this.E3 = new System.Windows.Forms.Panel();
+            this.White_Queen = new System.Windows.Forms.Button();
+            this.E4 = new System.Windows.Forms.Panel();
+            this.White_Pawn_5 = new System.Windows.Forms.Button();
+            this.E5 = new System.Windows.Forms.Panel();
             this.Black_Pawn_5 = new System.Windows.Forms.Button();
-            this.C7 = new System.Windows.Forms.Panel();
-            this.Black_Pawn_3 = new System.Windows.Forms.Button();
-            this.D7 = new System.Windows.Forms.Panel();
+            this.E6 = new System.Windows.Forms.Panel();
+            this.Black_King = new System.Windows.Forms.Button();
+            this.D2 = new System.Windows.Forms.Panel();
+            this.D3 = new System.Windows.Forms.Panel();
+            this.White_King = new System.Windows.Forms.Button();
+            this.D4 = new System.Windows.Forms.Panel();
+            this.White_Pawn_4 = new System.Windows.Forms.Button();
+            this.D5 = new System.Windows.Forms.Panel();
             this.Black_Pawn_4 = new System.Windows.Forms.Button();
-            this.B7 = new System.Windows.Forms.Panel();
+            this.D6 = new System.Windows.Forms.Panel();
+            this.Black_Queen = new System.Windows.Forms.Button();
+            this.C2 = new System.Windows.Forms.Panel();
+            this.C3 = new System.Windows.Forms.Panel();
+            this.White_Bishop_1 = new System.Windows.Forms.Button();
+            this.C4 = new System.Windows.Forms.Panel();
+            this.White_Pawn_3 = new System.Windows.Forms.Button();
+            this.C5 = new System.Windows.Forms.Panel();
+            this.Black_Pawn_3 = new System.Windows.Forms.Button();
+            this.C6 = new System.Windows.Forms.Panel();
+            this.Black_Bishop_1 = new System.Windows.Forms.Button();
+            this.B2 = new System.Windows.Forms.Panel();
+            this.B3 = new System.Windows.Forms.Panel();
+            this.White_Knight_1 = new System.Windows.Forms.Button();
+            this.B4 = new System.Windows.Forms.Panel();
+            this.White_Pawn_2 = new System.Windows.Forms.Button();
+            this.B5 = new System.Windows.Forms.Panel();
             this.Black_Pawn_2 = new System.Windows.Forms.Button();
+            this.B6 = new System.Windows.Forms.Panel();
+            this.Black_Knight_1 = new System.Windows.Forms.Button();
+            this.A2 = new System.Windows.Forms.Panel();
+            this.A3 = new System.Windows.Forms.Panel();
+            this.White_Rook_1 = new System.Windows.Forms.Button();
+            this.A4 = new System.Windows.Forms.Panel();
+            this.White_Pawn_1 = new System.Windows.Forms.Button();
+            this.A5 = new System.Windows.Forms.Panel();
+            this.Black_Pawn_1 = new System.Windows.Forms.Button();
+            this.A6 = new System.Windows.Forms.Panel();
+            this.Black_Rook_1 = new System.Windows.Forms.Button();
+            this.H7 = new System.Windows.Forms.Panel();
+            this.G7 = new System.Windows.Forms.Panel();
+            this.F7 = new System.Windows.Forms.Panel();
+            this.E7 = new System.Windows.Forms.Panel();
+            this.C7 = new System.Windows.Forms.Panel();
+            this.D7 = new System.Windows.Forms.Panel();
+            this.B7 = new System.Windows.Forms.Panel();
             this.lblTopE = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -156,53 +158,49 @@
             this.label32 = new System.Windows.Forms.Label();
             this.BoardStatus = new System.Windows.Forms.StatusStrip();
             this.Status = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.tsmiBlackPlayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiWhitePlayer = new System.Windows.Forms.ToolStripMenuItem();
+            this.PlayerText = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.gameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiNewGame = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiReplayGame = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiReplayGameBackwards = new System.Windows.Forms.ToolStripMenuItem();
             this.A7 = new System.Windows.Forms.Panel();
-            this.Black_Pawn_1 = new System.Windows.Forms.Button();
             this.A8 = new System.Windows.Forms.Panel();
-            this.Black_Rook_1 = new System.Windows.Forms.Button();
             this.tlpMain.SuspendLayout();
-            this.H1.SuspendLayout();
-            this.G1.SuspendLayout();
-            this.F1.SuspendLayout();
-            this.E1.SuspendLayout();
-            this.D1.SuspendLayout();
-            this.C1.SuspendLayout();
-            this.B1.SuspendLayout();
-            this.A1.SuspendLayout();
-            this.H8.SuspendLayout();
-            this.G8.SuspendLayout();
-            this.F8.SuspendLayout();
-            this.E8.SuspendLayout();
-            this.D8.SuspendLayout();
-            this.C8.SuspendLayout();
-            this.B8.SuspendLayout();
-            this.H2.SuspendLayout();
-            this.G2.SuspendLayout();
-            this.F2.SuspendLayout();
-            this.E2.SuspendLayout();
-            this.D2.SuspendLayout();
-            this.C2.SuspendLayout();
-            this.B2.SuspendLayout();
-            this.A2.SuspendLayout();
-            this.H7.SuspendLayout();
-            this.G7.SuspendLayout();
-            this.F7.SuspendLayout();
-            this.E7.SuspendLayout();
-            this.C7.SuspendLayout();
-            this.D7.SuspendLayout();
-            this.B7.SuspendLayout();
+            this.H3.SuspendLayout();
+            this.H4.SuspendLayout();
+            this.H5.SuspendLayout();
+            this.H6.SuspendLayout();
+            this.G3.SuspendLayout();
+            this.G4.SuspendLayout();
+            this.G5.SuspendLayout();
+            this.G6.SuspendLayout();
+            this.F3.SuspendLayout();
+            this.F4.SuspendLayout();
+            this.F5.SuspendLayout();
+            this.F6.SuspendLayout();
+            this.E3.SuspendLayout();
+            this.E4.SuspendLayout();
+            this.E5.SuspendLayout();
+            this.E6.SuspendLayout();
+            this.D3.SuspendLayout();
+            this.D4.SuspendLayout();
+            this.D5.SuspendLayout();
+            this.D6.SuspendLayout();
+            this.C3.SuspendLayout();
+            this.C4.SuspendLayout();
+            this.C5.SuspendLayout();
+            this.C6.SuspendLayout();
+            this.B3.SuspendLayout();
+            this.B4.SuspendLayout();
+            this.B5.SuspendLayout();
+            this.B6.SuspendLayout();
+            this.A3.SuspendLayout();
+            this.A4.SuspendLayout();
+            this.A5.SuspendLayout();
+            this.A6.SuspendLayout();
             this.BoardStatus.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            this.A7.SuspendLayout();
-            this.A8.SuspendLayout();
             this.SuspendLayout();
             // 
             // tlpMain
@@ -338,14 +336,190 @@
             // 
             // H1
             // 
-            this.H1.Controls.Add(this.White_Rook_2);
             this.H1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.H1.Location = new System.Drawing.Point(582, 454);
             this.H1.Margin = new System.Windows.Forms.Padding(0);
             this.H1.Name = "H1";
             this.H1.Size = new System.Drawing.Size(79, 57);
             this.H1.TabIndex = 53;
+            this.H1.Click += new System.EventHandler(this.OnLocationClicked);
             this.H1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // G1
+            // 
+            this.G1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.G1.Location = new System.Drawing.Point(502, 454);
+            this.G1.Margin = new System.Windows.Forms.Padding(0);
+            this.G1.Name = "G1";
+            this.G1.Size = new System.Drawing.Size(79, 57);
+            this.G1.TabIndex = 53;
+            this.G1.Click += new System.EventHandler(this.OnLocationClicked);
+            this.G1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // F1
+            // 
+            this.F1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.F1.Location = new System.Drawing.Point(422, 454);
+            this.F1.Margin = new System.Windows.Forms.Padding(0);
+            this.F1.Name = "F1";
+            this.F1.Size = new System.Drawing.Size(79, 57);
+            this.F1.TabIndex = 53;
+            this.F1.Click += new System.EventHandler(this.OnLocationClicked);
+            this.F1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // E1
+            // 
+            this.E1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.E1.Location = new System.Drawing.Point(342, 454);
+            this.E1.Margin = new System.Windows.Forms.Padding(0);
+            this.E1.Name = "E1";
+            this.E1.Size = new System.Drawing.Size(79, 57);
+            this.E1.TabIndex = 53;
+            this.E1.Click += new System.EventHandler(this.OnLocationClicked);
+            this.E1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // D1
+            // 
+            this.D1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.D1.Location = new System.Drawing.Point(262, 454);
+            this.D1.Margin = new System.Windows.Forms.Padding(0);
+            this.D1.Name = "D1";
+            this.D1.Size = new System.Drawing.Size(79, 57);
+            this.D1.TabIndex = 53;
+            this.D1.Click += new System.EventHandler(this.OnLocationClicked);
+            this.D1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // C1
+            // 
+            this.C1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.C1.Location = new System.Drawing.Point(182, 454);
+            this.C1.Margin = new System.Windows.Forms.Padding(0);
+            this.C1.Name = "C1";
+            this.C1.Size = new System.Drawing.Size(79, 57);
+            this.C1.TabIndex = 53;
+            this.C1.Click += new System.EventHandler(this.OnLocationClicked);
+            this.C1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // B1
+            // 
+            this.B1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.B1.Location = new System.Drawing.Point(102, 454);
+            this.B1.Margin = new System.Windows.Forms.Padding(0);
+            this.B1.Name = "B1";
+            this.B1.Size = new System.Drawing.Size(79, 57);
+            this.B1.TabIndex = 53;
+            this.B1.Click += new System.EventHandler(this.OnLocationClicked);
+            this.B1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // A1
+            // 
+            this.A1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.A1.Location = new System.Drawing.Point(22, 454);
+            this.A1.Margin = new System.Windows.Forms.Padding(0);
+            this.A1.Name = "A1";
+            this.A1.Size = new System.Drawing.Size(79, 57);
+            this.A1.TabIndex = 53;
+            this.A1.Click += new System.EventHandler(this.OnLocationClicked);
+            this.A1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // H8
+            // 
+            this.H8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.H8.Location = new System.Drawing.Point(582, 48);
+            this.H8.Margin = new System.Windows.Forms.Padding(0);
+            this.H8.Name = "H8";
+            this.H8.Size = new System.Drawing.Size(79, 57);
+            this.H8.TabIndex = 53;
+            this.H8.Click += new System.EventHandler(this.OnLocationClicked);
+            this.H8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // G8
+            // 
+            this.G8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.G8.Location = new System.Drawing.Point(502, 48);
+            this.G8.Margin = new System.Windows.Forms.Padding(0);
+            this.G8.Name = "G8";
+            this.G8.Size = new System.Drawing.Size(79, 57);
+            this.G8.TabIndex = 53;
+            this.G8.Click += new System.EventHandler(this.OnLocationClicked);
+            this.G8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // F8
+            // 
+            this.F8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.F8.Location = new System.Drawing.Point(422, 48);
+            this.F8.Margin = new System.Windows.Forms.Padding(0);
+            this.F8.Name = "F8";
+            this.F8.Size = new System.Drawing.Size(79, 57);
+            this.F8.TabIndex = 53;
+            this.F8.Click += new System.EventHandler(this.OnLocationClicked);
+            this.F8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // E8
+            // 
+            this.E8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.E8.Location = new System.Drawing.Point(342, 48);
+            this.E8.Margin = new System.Windows.Forms.Padding(0);
+            this.E8.Name = "E8";
+            this.E8.Size = new System.Drawing.Size(79, 57);
+            this.E8.TabIndex = 53;
+            this.E8.Click += new System.EventHandler(this.OnLocationClicked);
+            this.E8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // D8
+            // 
+            this.D8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.D8.Location = new System.Drawing.Point(262, 48);
+            this.D8.Margin = new System.Windows.Forms.Padding(0);
+            this.D8.Name = "D8";
+            this.D8.Size = new System.Drawing.Size(79, 57);
+            this.D8.TabIndex = 53;
+            this.D8.Click += new System.EventHandler(this.OnLocationClicked);
+            this.D8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // C8
+            // 
+            this.C8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.C8.Location = new System.Drawing.Point(182, 48);
+            this.C8.Margin = new System.Windows.Forms.Padding(0);
+            this.C8.Name = "C8";
+            this.C8.Size = new System.Drawing.Size(79, 57);
+            this.C8.TabIndex = 53;
+            this.C8.Click += new System.EventHandler(this.OnLocationClicked);
+            this.C8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // B8
+            // 
+            this.B8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.B8.Location = new System.Drawing.Point(102, 48);
+            this.B8.Margin = new System.Windows.Forms.Padding(0);
+            this.B8.Name = "B8";
+            this.B8.Size = new System.Drawing.Size(79, 57);
+            this.B8.TabIndex = 53;
+            this.B8.Click += new System.EventHandler(this.OnLocationClicked);
+            this.B8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // H2
+            // 
+            this.H2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.H2.Location = new System.Drawing.Point(582, 396);
+            this.H2.Margin = new System.Windows.Forms.Padding(0);
+            this.H2.Name = "H2";
+            this.H2.Size = new System.Drawing.Size(79, 57);
+            this.H2.TabIndex = 51;
+            this.H2.Click += new System.EventHandler(this.OnLocationClicked);
+            this.H2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // H3
+            // 
+            this.H3.Controls.Add(this.White_Rook_2);
+            this.H3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.H3.Location = new System.Drawing.Point(582, 338);
+            this.H3.Margin = new System.Windows.Forms.Padding(0);
+            this.H3.Name = "H3";
+            this.H3.Size = new System.Drawing.Size(79, 57);
+            this.H3.TabIndex = 51;
+            this.H3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
             // White_Rook_2
             // 
@@ -363,202 +537,72 @@
             this.White_Rook_2.UseVisualStyleBackColor = false;
             this.White_Rook_2.Click += new System.EventHandler(this.OnEntityClicked);
             // 
-            // G1
+            // H4
             // 
-            this.G1.Controls.Add(this.White_Knight_2);
-            this.G1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G1.Location = new System.Drawing.Point(502, 454);
-            this.G1.Margin = new System.Windows.Forms.Padding(0);
-            this.G1.Name = "G1";
-            this.G1.Size = new System.Drawing.Size(79, 57);
-            this.G1.TabIndex = 53;
-            this.G1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            this.H4.Controls.Add(this.White_Pawn_8);
+            this.H4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.H4.Location = new System.Drawing.Point(582, 280);
+            this.H4.Margin = new System.Windows.Forms.Padding(0);
+            this.H4.Name = "H4";
+            this.H4.Size = new System.Drawing.Size(79, 57);
+            this.H4.TabIndex = 51;
+            this.H4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
-            // White_Knight_2
+            // White_Pawn_8
             // 
-            this.White_Knight_2.BackColor = System.Drawing.Color.DarkGray;
-            this.White_Knight_2.BackgroundImage = global::NinjaBoard.Properties.Resources.white_knight;
-            this.White_Knight_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_Knight_2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_Knight_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_Knight_2.Location = new System.Drawing.Point(0, 0);
-            this.White_Knight_2.Margin = new System.Windows.Forms.Padding(0);
-            this.White_Knight_2.Name = "White_Knight_2";
-            this.White_Knight_2.Size = new System.Drawing.Size(79, 57);
-            this.White_Knight_2.TabIndex = 46;
-            this.White_Knight_2.Tag = "White";
-            this.White_Knight_2.UseVisualStyleBackColor = false;
-            this.White_Knight_2.Click += new System.EventHandler(this.OnEntityClicked);
+            this.White_Pawn_8.BackColor = System.Drawing.Color.DarkGray;
+            this.White_Pawn_8.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
+            this.White_Pawn_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_Pawn_8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_Pawn_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_Pawn_8.ForeColor = System.Drawing.Color.Black;
+            this.White_Pawn_8.Location = new System.Drawing.Point(0, 0);
+            this.White_Pawn_8.Margin = new System.Windows.Forms.Padding(0);
+            this.White_Pawn_8.Name = "White_Pawn_8";
+            this.White_Pawn_8.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_8.TabIndex = 40;
+            this.White_Pawn_8.Tag = "White";
+            this.White_Pawn_8.UseVisualStyleBackColor = false;
+            this.White_Pawn_8.Click += new System.EventHandler(this.OnEntityClicked);
             // 
-            // F1
+            // H5
             // 
-            this.F1.Controls.Add(this.White_Bishop_2);
-            this.F1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F1.Location = new System.Drawing.Point(422, 454);
-            this.F1.Margin = new System.Windows.Forms.Padding(0);
-            this.F1.Name = "F1";
-            this.F1.Size = new System.Drawing.Size(79, 57);
-            this.F1.TabIndex = 53;
-            this.F1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            this.H5.Controls.Add(this.Black_Pawn_8);
+            this.H5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.H5.Location = new System.Drawing.Point(582, 222);
+            this.H5.Margin = new System.Windows.Forms.Padding(0);
+            this.H5.Name = "H5";
+            this.H5.Size = new System.Drawing.Size(79, 57);
+            this.H5.TabIndex = 51;
+            this.H5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
-            // White_Bishop_2
+            // Black_Pawn_8
             // 
-            this.White_Bishop_2.BackColor = System.Drawing.Color.DarkGray;
-            this.White_Bishop_2.BackgroundImage = global::NinjaBoard.Properties.Resources.white_bishop;
-            this.White_Bishop_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_Bishop_2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_Bishop_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_Bishop_2.Location = new System.Drawing.Point(0, 0);
-            this.White_Bishop_2.Margin = new System.Windows.Forms.Padding(0);
-            this.White_Bishop_2.Name = "White_Bishop_2";
-            this.White_Bishop_2.Size = new System.Drawing.Size(79, 57);
-            this.White_Bishop_2.TabIndex = 47;
-            this.White_Bishop_2.Tag = "White";
-            this.White_Bishop_2.UseVisualStyleBackColor = false;
-            this.White_Bishop_2.Click += new System.EventHandler(this.OnEntityClicked);
+            this.Black_Pawn_8.BackColor = System.Drawing.Color.White;
+            this.Black_Pawn_8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Black_Pawn_8.BackgroundImage")));
+            this.Black_Pawn_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Black_Pawn_8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Black_Pawn_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Black_Pawn_8.ForeColor = System.Drawing.Color.White;
+            this.Black_Pawn_8.Location = new System.Drawing.Point(0, 0);
+            this.Black_Pawn_8.Margin = new System.Windows.Forms.Padding(0);
+            this.Black_Pawn_8.Name = "Black_Pawn_8";
+            this.Black_Pawn_8.Size = new System.Drawing.Size(79, 57);
+            this.Black_Pawn_8.TabIndex = 7;
+            this.Black_Pawn_8.Tag = "Black";
+            this.Black_Pawn_8.UseVisualStyleBackColor = false;
+            this.Black_Pawn_8.Click += new System.EventHandler(this.OnEntityClicked);
             // 
-            // E1
+            // H6
             // 
-            this.E1.Controls.Add(this.White_Queen);
-            this.E1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E1.Location = new System.Drawing.Point(342, 454);
-            this.E1.Margin = new System.Windows.Forms.Padding(0);
-            this.E1.Name = "E1";
-            this.E1.Size = new System.Drawing.Size(79, 57);
-            this.E1.TabIndex = 53;
-            this.E1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // White_Queen
-            // 
-            this.White_Queen.BackColor = System.Drawing.Color.DarkGray;
-            this.White_Queen.BackgroundImage = global::NinjaBoard.Properties.Resources.white_queen;
-            this.White_Queen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_Queen.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_Queen.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_Queen.Location = new System.Drawing.Point(0, 0);
-            this.White_Queen.Margin = new System.Windows.Forms.Padding(0);
-            this.White_Queen.Name = "White_Queen";
-            this.White_Queen.Size = new System.Drawing.Size(79, 57);
-            this.White_Queen.TabIndex = 48;
-            this.White_Queen.Tag = "White";
-            this.White_Queen.UseVisualStyleBackColor = false;
-            this.White_Queen.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // D1
-            // 
-            this.D1.Controls.Add(this.White_King);
-            this.D1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D1.Location = new System.Drawing.Point(262, 454);
-            this.D1.Margin = new System.Windows.Forms.Padding(0);
-            this.D1.Name = "D1";
-            this.D1.Size = new System.Drawing.Size(79, 57);
-            this.D1.TabIndex = 53;
-            this.D1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // White_King
-            // 
-            this.White_King.BackColor = System.Drawing.Color.DarkGray;
-            this.White_King.BackgroundImage = global::NinjaBoard.Properties.Resources.white_king;
-            this.White_King.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_King.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_King.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_King.Location = new System.Drawing.Point(0, 0);
-            this.White_King.Margin = new System.Windows.Forms.Padding(0);
-            this.White_King.Name = "White_King";
-            this.White_King.Size = new System.Drawing.Size(79, 57);
-            this.White_King.TabIndex = 49;
-            this.White_King.Tag = "White";
-            this.White_King.UseVisualStyleBackColor = false;
-            this.White_King.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // C1
-            // 
-            this.C1.Controls.Add(this.White_Bishop_1);
-            this.C1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C1.Location = new System.Drawing.Point(182, 454);
-            this.C1.Margin = new System.Windows.Forms.Padding(0);
-            this.C1.Name = "C1";
-            this.C1.Size = new System.Drawing.Size(79, 57);
-            this.C1.TabIndex = 53;
-            this.C1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // White_Bishop_1
-            // 
-            this.White_Bishop_1.BackColor = System.Drawing.Color.DarkGray;
-            this.White_Bishop_1.BackgroundImage = global::NinjaBoard.Properties.Resources.white_bishop;
-            this.White_Bishop_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_Bishop_1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_Bishop_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_Bishop_1.Location = new System.Drawing.Point(0, 0);
-            this.White_Bishop_1.Margin = new System.Windows.Forms.Padding(0);
-            this.White_Bishop_1.Name = "White_Bishop_1";
-            this.White_Bishop_1.Size = new System.Drawing.Size(79, 57);
-            this.White_Bishop_1.TabIndex = 44;
-            this.White_Bishop_1.Tag = "White";
-            this.White_Bishop_1.UseVisualStyleBackColor = false;
-            this.White_Bishop_1.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // B1
-            // 
-            this.B1.Controls.Add(this.White_Knight_1);
-            this.B1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B1.Location = new System.Drawing.Point(102, 454);
-            this.B1.Margin = new System.Windows.Forms.Padding(0);
-            this.B1.Name = "B1";
-            this.B1.Size = new System.Drawing.Size(79, 57);
-            this.B1.TabIndex = 53;
-            // 
-            // White_Knight_1
-            // 
-            this.White_Knight_1.BackColor = System.Drawing.Color.DarkGray;
-            this.White_Knight_1.BackgroundImage = global::NinjaBoard.Properties.Resources.white_knight;
-            this.White_Knight_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_Knight_1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_Knight_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_Knight_1.Location = new System.Drawing.Point(0, 0);
-            this.White_Knight_1.Margin = new System.Windows.Forms.Padding(0);
-            this.White_Knight_1.Name = "White_Knight_1";
-            this.White_Knight_1.Size = new System.Drawing.Size(79, 57);
-            this.White_Knight_1.TabIndex = 42;
-            this.White_Knight_1.Tag = "White";
-            this.White_Knight_1.UseVisualStyleBackColor = false;
-            this.White_Knight_1.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // A1
-            // 
-            this.A1.Controls.Add(this.White_Rook_1);
-            this.A1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.A1.Location = new System.Drawing.Point(22, 454);
-            this.A1.Margin = new System.Windows.Forms.Padding(0);
-            this.A1.Name = "A1";
-            this.A1.Size = new System.Drawing.Size(79, 57);
-            this.A1.TabIndex = 53;
-            // 
-            // White_Rook_1
-            // 
-            this.White_Rook_1.BackColor = System.Drawing.Color.DarkGray;
-            this.White_Rook_1.BackgroundImage = global::NinjaBoard.Properties.Resources.white_rook;
-            this.White_Rook_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_Rook_1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_Rook_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_Rook_1.ForeColor = System.Drawing.Color.Black;
-            this.White_Rook_1.Location = new System.Drawing.Point(0, 0);
-            this.White_Rook_1.Margin = new System.Windows.Forms.Padding(0);
-            this.White_Rook_1.Name = "White_Rook_1";
-            this.White_Rook_1.Size = new System.Drawing.Size(79, 57);
-            this.White_Rook_1.TabIndex = 32;
-            this.White_Rook_1.UseVisualStyleBackColor = false;
-            this.White_Rook_1.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // H8
-            // 
-            this.H8.Controls.Add(this.Black_Rook_2);
-            this.H8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H8.Location = new System.Drawing.Point(582, 48);
-            this.H8.Margin = new System.Windows.Forms.Padding(0);
-            this.H8.Name = "H8";
-            this.H8.Size = new System.Drawing.Size(79, 57);
-            this.H8.TabIndex = 53;
+            this.H6.Controls.Add(this.Black_Rook_2);
+            this.H6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.H6.Location = new System.Drawing.Point(582, 164);
+            this.H6.Margin = new System.Windows.Forms.Padding(0);
+            this.H6.Name = "H6";
+            this.H6.Size = new System.Drawing.Size(79, 57);
+            this.H6.TabIndex = 51;
+            this.H6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
             // Black_Rook_2
             // 
@@ -578,244 +622,54 @@
             this.Black_Rook_2.UseVisualStyleBackColor = false;
             this.Black_Rook_2.Click += new System.EventHandler(this.OnEntityClicked);
             // 
-            // G8
-            // 
-            this.G8.Controls.Add(this.Black_Knight_2);
-            this.G8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G8.Location = new System.Drawing.Point(502, 48);
-            this.G8.Margin = new System.Windows.Forms.Padding(0);
-            this.G8.Name = "G8";
-            this.G8.Size = new System.Drawing.Size(79, 57);
-            this.G8.TabIndex = 53;
-            // 
-            // Black_Knight_2
-            // 
-            this.Black_Knight_2.BackColor = System.Drawing.Color.White;
-            this.Black_Knight_2.BackgroundImage = global::NinjaBoard.Properties.Resources.black_knight;
-            this.Black_Knight_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Black_Knight_2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Black_Knight_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Black_Knight_2.ForeColor = System.Drawing.Color.White;
-            this.Black_Knight_2.Location = new System.Drawing.Point(0, 0);
-            this.Black_Knight_2.Margin = new System.Windows.Forms.Padding(0);
-            this.Black_Knight_2.Name = "Black_Knight_2";
-            this.Black_Knight_2.Size = new System.Drawing.Size(79, 57);
-            this.Black_Knight_2.TabIndex = 40;
-            this.Black_Knight_2.Tag = "Black";
-            this.Black_Knight_2.UseVisualStyleBackColor = false;
-            this.Black_Knight_2.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // F8
-            // 
-            this.F8.Controls.Add(this.Black_Bishop_2);
-            this.F8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F8.Location = new System.Drawing.Point(422, 48);
-            this.F8.Margin = new System.Windows.Forms.Padding(0);
-            this.F8.Name = "F8";
-            this.F8.Size = new System.Drawing.Size(79, 57);
-            this.F8.TabIndex = 53;
-            // 
-            // Black_Bishop_2
-            // 
-            this.Black_Bishop_2.BackColor = System.Drawing.Color.White;
-            this.Black_Bishop_2.BackgroundImage = global::NinjaBoard.Properties.Resources.black_bishop;
-            this.Black_Bishop_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Black_Bishop_2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Black_Bishop_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Black_Bishop_2.ForeColor = System.Drawing.Color.White;
-            this.Black_Bishop_2.Location = new System.Drawing.Point(0, 0);
-            this.Black_Bishop_2.Margin = new System.Windows.Forms.Padding(0);
-            this.Black_Bishop_2.Name = "Black_Bishop_2";
-            this.Black_Bishop_2.Size = new System.Drawing.Size(79, 57);
-            this.Black_Bishop_2.TabIndex = 39;
-            this.Black_Bishop_2.Tag = "Black";
-            this.Black_Bishop_2.UseVisualStyleBackColor = false;
-            this.Black_Bishop_2.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // E8
-            // 
-            this.E8.Controls.Add(this.Black_King);
-            this.E8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E8.Location = new System.Drawing.Point(342, 48);
-            this.E8.Margin = new System.Windows.Forms.Padding(0);
-            this.E8.Name = "E8";
-            this.E8.Size = new System.Drawing.Size(79, 57);
-            this.E8.TabIndex = 53;
-            // 
-            // Black_King
-            // 
-            this.Black_King.BackColor = System.Drawing.Color.White;
-            this.Black_King.BackgroundImage = global::NinjaBoard.Properties.Resources.black_king;
-            this.Black_King.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Black_King.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Black_King.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Black_King.ForeColor = System.Drawing.Color.White;
-            this.Black_King.Location = new System.Drawing.Point(0, 0);
-            this.Black_King.Margin = new System.Windows.Forms.Padding(0);
-            this.Black_King.Name = "Black_King";
-            this.Black_King.Size = new System.Drawing.Size(79, 57);
-            this.Black_King.TabIndex = 38;
-            this.Black_King.Tag = "Black";
-            this.Black_King.UseVisualStyleBackColor = false;
-            this.Black_King.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // D8
-            // 
-            this.D8.Controls.Add(this.Black_Queen);
-            this.D8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D8.Location = new System.Drawing.Point(262, 48);
-            this.D8.Margin = new System.Windows.Forms.Padding(0);
-            this.D8.Name = "D8";
-            this.D8.Size = new System.Drawing.Size(79, 57);
-            this.D8.TabIndex = 53;
-            // 
-            // Black_Queen
-            // 
-            this.Black_Queen.BackColor = System.Drawing.Color.White;
-            this.Black_Queen.BackgroundImage = global::NinjaBoard.Properties.Resources.black_queen;
-            this.Black_Queen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Black_Queen.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Black_Queen.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Black_Queen.ForeColor = System.Drawing.Color.White;
-            this.Black_Queen.Location = new System.Drawing.Point(0, 0);
-            this.Black_Queen.Margin = new System.Windows.Forms.Padding(0);
-            this.Black_Queen.Name = "Black_Queen";
-            this.Black_Queen.Size = new System.Drawing.Size(79, 57);
-            this.Black_Queen.TabIndex = 37;
-            this.Black_Queen.Tag = "Black";
-            this.Black_Queen.UseVisualStyleBackColor = false;
-            this.Black_Queen.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // C8
-            // 
-            this.C8.Controls.Add(this.Black_Bishop_1);
-            this.C8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C8.Location = new System.Drawing.Point(182, 48);
-            this.C8.Margin = new System.Windows.Forms.Padding(0);
-            this.C8.Name = "C8";
-            this.C8.Size = new System.Drawing.Size(79, 57);
-            this.C8.TabIndex = 53;
-            // 
-            // Black_Bishop_1
-            // 
-            this.Black_Bishop_1.BackColor = System.Drawing.Color.White;
-            this.Black_Bishop_1.BackgroundImage = global::NinjaBoard.Properties.Resources.black_bishop;
-            this.Black_Bishop_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Black_Bishop_1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Black_Bishop_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Black_Bishop_1.ForeColor = System.Drawing.Color.White;
-            this.Black_Bishop_1.Location = new System.Drawing.Point(0, 0);
-            this.Black_Bishop_1.Margin = new System.Windows.Forms.Padding(0);
-            this.Black_Bishop_1.Name = "Black_Bishop_1";
-            this.Black_Bishop_1.Size = new System.Drawing.Size(79, 57);
-            this.Black_Bishop_1.TabIndex = 36;
-            this.Black_Bishop_1.Tag = "Black";
-            this.Black_Bishop_1.UseVisualStyleBackColor = false;
-            this.Black_Bishop_1.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // B8
-            // 
-            this.B8.Controls.Add(this.Black_Knight_1);
-            this.B8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B8.Location = new System.Drawing.Point(102, 48);
-            this.B8.Margin = new System.Windows.Forms.Padding(0);
-            this.B8.Name = "B8";
-            this.B8.Size = new System.Drawing.Size(79, 57);
-            this.B8.TabIndex = 53;
-            // 
-            // Black_Knight_1
-            // 
-            this.Black_Knight_1.BackColor = System.Drawing.Color.White;
-            this.Black_Knight_1.BackgroundImage = global::NinjaBoard.Properties.Resources.black_knight;
-            this.Black_Knight_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Black_Knight_1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Black_Knight_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Black_Knight_1.ForeColor = System.Drawing.Color.White;
-            this.Black_Knight_1.Location = new System.Drawing.Point(0, 0);
-            this.Black_Knight_1.Margin = new System.Windows.Forms.Padding(0);
-            this.Black_Knight_1.Name = "Black_Knight_1";
-            this.Black_Knight_1.Size = new System.Drawing.Size(79, 57);
-            this.Black_Knight_1.TabIndex = 35;
-            this.Black_Knight_1.Tag = "Black";
-            this.Black_Knight_1.UseVisualStyleBackColor = false;
-            this.Black_Knight_1.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // H2
-            // 
-            this.H2.Controls.Add(this.White_Pawn_8);
-            this.H2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H2.Location = new System.Drawing.Point(582, 396);
-            this.H2.Margin = new System.Windows.Forms.Padding(0);
-            this.H2.Name = "H2";
-            this.H2.Size = new System.Drawing.Size(79, 57);
-            this.H2.TabIndex = 51;
-            // 
-            // White_Pawn_8
-            // 
-            this.White_Pawn_8.BackColor = System.Drawing.Color.DarkGray;
-            this.White_Pawn_8.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
-            this.White_Pawn_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_Pawn_8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_Pawn_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_Pawn_8.ForeColor = System.Drawing.Color.Black;
-            this.White_Pawn_8.Location = new System.Drawing.Point(0, 0);
-            this.White_Pawn_8.Margin = new System.Windows.Forms.Padding(0);
-            this.White_Pawn_8.Name = "White_Pawn_8";
-            this.White_Pawn_8.Size = new System.Drawing.Size(79, 57);
-            this.White_Pawn_8.TabIndex = 40;
-            this.White_Pawn_8.Tag = "White";
-            this.White_Pawn_8.UseVisualStyleBackColor = false;
-            this.White_Pawn_8.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // H3
-            // 
-            this.H3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H3.Location = new System.Drawing.Point(582, 338);
-            this.H3.Margin = new System.Windows.Forms.Padding(0);
-            this.H3.Name = "H3";
-            this.H3.Size = new System.Drawing.Size(79, 57);
-            this.H3.TabIndex = 51;
-            this.H3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // H4
-            // 
-            this.H4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H4.Location = new System.Drawing.Point(582, 280);
-            this.H4.Margin = new System.Windows.Forms.Padding(0);
-            this.H4.Name = "H4";
-            this.H4.Size = new System.Drawing.Size(79, 57);
-            this.H4.TabIndex = 51;
-            this.H4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // H5
-            // 
-            this.H5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H5.Location = new System.Drawing.Point(582, 222);
-            this.H5.Margin = new System.Windows.Forms.Padding(0);
-            this.H5.Name = "H5";
-            this.H5.Size = new System.Drawing.Size(79, 57);
-            this.H5.TabIndex = 51;
-            this.H5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // H6
-            // 
-            this.H6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H6.Location = new System.Drawing.Point(582, 164);
-            this.H6.Margin = new System.Windows.Forms.Padding(0);
-            this.H6.Name = "H6";
-            this.H6.Size = new System.Drawing.Size(79, 57);
-            this.H6.TabIndex = 51;
-            this.H6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
             // G2
             // 
-            this.G2.Controls.Add(this.White_Pawn_7);
             this.G2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.G2.Location = new System.Drawing.Point(502, 396);
             this.G2.Margin = new System.Windows.Forms.Padding(0);
             this.G2.Name = "G2";
             this.G2.Size = new System.Drawing.Size(79, 57);
             this.G2.TabIndex = 51;
+            this.G2.Click += new System.EventHandler(this.OnLocationClicked);
+            this.G2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // G3
+            // 
+            this.G3.Controls.Add(this.White_Knight_2);
+            this.G3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.G3.Location = new System.Drawing.Point(502, 338);
+            this.G3.Margin = new System.Windows.Forms.Padding(0);
+            this.G3.Name = "G3";
+            this.G3.Size = new System.Drawing.Size(79, 57);
+            this.G3.TabIndex = 51;
+            this.G3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // White_Knight_2
+            // 
+            this.White_Knight_2.BackColor = System.Drawing.Color.DarkGray;
+            this.White_Knight_2.BackgroundImage = global::NinjaBoard.Properties.Resources.white_knight;
+            this.White_Knight_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_Knight_2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_Knight_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_Knight_2.Location = new System.Drawing.Point(0, 0);
+            this.White_Knight_2.Margin = new System.Windows.Forms.Padding(0);
+            this.White_Knight_2.Name = "White_Knight_2";
+            this.White_Knight_2.Size = new System.Drawing.Size(79, 57);
+            this.White_Knight_2.TabIndex = 46;
+            this.White_Knight_2.Tag = "White";
+            this.White_Knight_2.UseVisualStyleBackColor = false;
+            this.White_Knight_2.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // G4
+            // 
+            this.G4.Controls.Add(this.White_Pawn_7);
+            this.G4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.G4.Location = new System.Drawing.Point(502, 280);
+            this.G4.Margin = new System.Windows.Forms.Padding(0);
+            this.G4.Name = "G4";
+            this.G4.Size = new System.Drawing.Size(79, 57);
+            this.G4.TabIndex = 51;
+            this.G4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
             // White_Pawn_7
             // 
@@ -834,28 +688,9 @@
             this.White_Pawn_7.UseVisualStyleBackColor = false;
             this.White_Pawn_7.Click += new System.EventHandler(this.OnEntityClicked);
             // 
-            // G3
-            // 
-            this.G3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G3.Location = new System.Drawing.Point(502, 338);
-            this.G3.Margin = new System.Windows.Forms.Padding(0);
-            this.G3.Name = "G3";
-            this.G3.Size = new System.Drawing.Size(79, 57);
-            this.G3.TabIndex = 51;
-            this.G3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // G4
-            // 
-            this.G4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G4.Location = new System.Drawing.Point(502, 280);
-            this.G4.Margin = new System.Windows.Forms.Padding(0);
-            this.G4.Name = "G4";
-            this.G4.Size = new System.Drawing.Size(79, 57);
-            this.G4.TabIndex = 51;
-            this.G4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
             // G5
             // 
+            this.G5.Controls.Add(this.Black_Pawn_7);
             this.G5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.G5.Location = new System.Drawing.Point(502, 222);
             this.G5.Margin = new System.Windows.Forms.Padding(0);
@@ -863,455 +698,6 @@
             this.G5.Size = new System.Drawing.Size(79, 57);
             this.G5.TabIndex = 51;
             this.G5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // G6
-            // 
-            this.G6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G6.Location = new System.Drawing.Point(502, 164);
-            this.G6.Margin = new System.Windows.Forms.Padding(0);
-            this.G6.Name = "G6";
-            this.G6.Size = new System.Drawing.Size(79, 57);
-            this.G6.TabIndex = 51;
-            this.G6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // F2
-            // 
-            this.F2.Controls.Add(this.White_Pawn_6);
-            this.F2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F2.Location = new System.Drawing.Point(422, 396);
-            this.F2.Margin = new System.Windows.Forms.Padding(0);
-            this.F2.Name = "F2";
-            this.F2.Size = new System.Drawing.Size(79, 57);
-            this.F2.TabIndex = 51;
-            // 
-            // White_Pawn_6
-            // 
-            this.White_Pawn_6.BackColor = System.Drawing.Color.DarkGray;
-            this.White_Pawn_6.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
-            this.White_Pawn_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_Pawn_6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_Pawn_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_Pawn_6.ForeColor = System.Drawing.Color.Black;
-            this.White_Pawn_6.Location = new System.Drawing.Point(0, 0);
-            this.White_Pawn_6.Margin = new System.Windows.Forms.Padding(0);
-            this.White_Pawn_6.Name = "White_Pawn_6";
-            this.White_Pawn_6.Size = new System.Drawing.Size(79, 57);
-            this.White_Pawn_6.TabIndex = 38;
-            this.White_Pawn_6.Tag = "White";
-            this.White_Pawn_6.UseVisualStyleBackColor = false;
-            this.White_Pawn_6.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // F3
-            // 
-            this.F3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F3.Location = new System.Drawing.Point(422, 338);
-            this.F3.Margin = new System.Windows.Forms.Padding(0);
-            this.F3.Name = "F3";
-            this.F3.Size = new System.Drawing.Size(79, 57);
-            this.F3.TabIndex = 51;
-            this.F3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // F4
-            // 
-            this.F4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F4.Location = new System.Drawing.Point(422, 280);
-            this.F4.Margin = new System.Windows.Forms.Padding(0);
-            this.F4.Name = "F4";
-            this.F4.Size = new System.Drawing.Size(79, 57);
-            this.F4.TabIndex = 51;
-            this.F4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // F5
-            // 
-            this.F5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F5.Location = new System.Drawing.Point(422, 222);
-            this.F5.Margin = new System.Windows.Forms.Padding(0);
-            this.F5.Name = "F5";
-            this.F5.Size = new System.Drawing.Size(79, 57);
-            this.F5.TabIndex = 51;
-            this.F5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // F6
-            // 
-            this.F6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F6.Location = new System.Drawing.Point(422, 164);
-            this.F6.Margin = new System.Windows.Forms.Padding(0);
-            this.F6.Name = "F6";
-            this.F6.Size = new System.Drawing.Size(79, 57);
-            this.F6.TabIndex = 51;
-            this.F6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // E2
-            // 
-            this.E2.Controls.Add(this.White_Pawn_5);
-            this.E2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E2.Location = new System.Drawing.Point(342, 396);
-            this.E2.Margin = new System.Windows.Forms.Padding(0);
-            this.E2.Name = "E2";
-            this.E2.Size = new System.Drawing.Size(79, 57);
-            this.E2.TabIndex = 51;
-            // 
-            // White_Pawn_5
-            // 
-            this.White_Pawn_5.BackColor = System.Drawing.Color.DarkGray;
-            this.White_Pawn_5.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
-            this.White_Pawn_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_Pawn_5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_Pawn_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_Pawn_5.ForeColor = System.Drawing.Color.Black;
-            this.White_Pawn_5.Location = new System.Drawing.Point(0, 0);
-            this.White_Pawn_5.Margin = new System.Windows.Forms.Padding(0);
-            this.White_Pawn_5.Name = "White_Pawn_5";
-            this.White_Pawn_5.Size = new System.Drawing.Size(79, 57);
-            this.White_Pawn_5.TabIndex = 37;
-            this.White_Pawn_5.Tag = "White";
-            this.White_Pawn_5.UseVisualStyleBackColor = false;
-            this.White_Pawn_5.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // E3
-            // 
-            this.E3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E3.Location = new System.Drawing.Point(342, 338);
-            this.E3.Margin = new System.Windows.Forms.Padding(0);
-            this.E3.Name = "E3";
-            this.E3.Size = new System.Drawing.Size(79, 57);
-            this.E3.TabIndex = 51;
-            this.E3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // E4
-            // 
-            this.E4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E4.Location = new System.Drawing.Point(342, 280);
-            this.E4.Margin = new System.Windows.Forms.Padding(0);
-            this.E4.Name = "E4";
-            this.E4.Size = new System.Drawing.Size(79, 57);
-            this.E4.TabIndex = 51;
-            this.E4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // E5
-            // 
-            this.E5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E5.Location = new System.Drawing.Point(342, 222);
-            this.E5.Margin = new System.Windows.Forms.Padding(0);
-            this.E5.Name = "E5";
-            this.E5.Size = new System.Drawing.Size(79, 57);
-            this.E5.TabIndex = 51;
-            this.E5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // E6
-            // 
-            this.E6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E6.Location = new System.Drawing.Point(342, 164);
-            this.E6.Margin = new System.Windows.Forms.Padding(0);
-            this.E6.Name = "E6";
-            this.E6.Size = new System.Drawing.Size(79, 57);
-            this.E6.TabIndex = 51;
-            this.E6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // D2
-            // 
-            this.D2.Controls.Add(this.White_Pawn_4);
-            this.D2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D2.Location = new System.Drawing.Point(262, 396);
-            this.D2.Margin = new System.Windows.Forms.Padding(0);
-            this.D2.Name = "D2";
-            this.D2.Size = new System.Drawing.Size(79, 57);
-            this.D2.TabIndex = 51;
-            // 
-            // White_Pawn_4
-            // 
-            this.White_Pawn_4.BackColor = System.Drawing.Color.DarkGray;
-            this.White_Pawn_4.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
-            this.White_Pawn_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_Pawn_4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_Pawn_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_Pawn_4.ForeColor = System.Drawing.Color.Black;
-            this.White_Pawn_4.Location = new System.Drawing.Point(0, 0);
-            this.White_Pawn_4.Margin = new System.Windows.Forms.Padding(0);
-            this.White_Pawn_4.Name = "White_Pawn_4";
-            this.White_Pawn_4.Size = new System.Drawing.Size(79, 57);
-            this.White_Pawn_4.TabIndex = 36;
-            this.White_Pawn_4.Tag = "White";
-            this.White_Pawn_4.UseVisualStyleBackColor = false;
-            this.White_Pawn_4.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // D3
-            // 
-            this.D3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D3.Location = new System.Drawing.Point(262, 338);
-            this.D3.Margin = new System.Windows.Forms.Padding(0);
-            this.D3.Name = "D3";
-            this.D3.Size = new System.Drawing.Size(79, 57);
-            this.D3.TabIndex = 51;
-            this.D3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // D4
-            // 
-            this.D4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D4.Location = new System.Drawing.Point(262, 280);
-            this.D4.Margin = new System.Windows.Forms.Padding(0);
-            this.D4.Name = "D4";
-            this.D4.Size = new System.Drawing.Size(79, 57);
-            this.D4.TabIndex = 51;
-            this.D4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // D5
-            // 
-            this.D5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D5.Location = new System.Drawing.Point(262, 222);
-            this.D5.Margin = new System.Windows.Forms.Padding(0);
-            this.D5.Name = "D5";
-            this.D5.Size = new System.Drawing.Size(79, 57);
-            this.D5.TabIndex = 51;
-            this.D5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // D6
-            // 
-            this.D6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D6.Location = new System.Drawing.Point(262, 164);
-            this.D6.Margin = new System.Windows.Forms.Padding(0);
-            this.D6.Name = "D6";
-            this.D6.Size = new System.Drawing.Size(79, 57);
-            this.D6.TabIndex = 51;
-            this.D6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // C2
-            // 
-            this.C2.Controls.Add(this.White_Pawn_3);
-            this.C2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C2.Location = new System.Drawing.Point(182, 396);
-            this.C2.Margin = new System.Windows.Forms.Padding(0);
-            this.C2.Name = "C2";
-            this.C2.Size = new System.Drawing.Size(79, 57);
-            this.C2.TabIndex = 51;
-            // 
-            // White_Pawn_3
-            // 
-            this.White_Pawn_3.BackColor = System.Drawing.Color.DarkGray;
-            this.White_Pawn_3.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
-            this.White_Pawn_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_Pawn_3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_Pawn_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_Pawn_3.ForeColor = System.Drawing.Color.Black;
-            this.White_Pawn_3.Location = new System.Drawing.Point(0, 0);
-            this.White_Pawn_3.Margin = new System.Windows.Forms.Padding(0);
-            this.White_Pawn_3.Name = "White_Pawn_3";
-            this.White_Pawn_3.Size = new System.Drawing.Size(79, 57);
-            this.White_Pawn_3.TabIndex = 35;
-            this.White_Pawn_3.Tag = "White";
-            this.White_Pawn_3.UseVisualStyleBackColor = false;
-            this.White_Pawn_3.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // C3
-            // 
-            this.C3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C3.Location = new System.Drawing.Point(182, 338);
-            this.C3.Margin = new System.Windows.Forms.Padding(0);
-            this.C3.Name = "C3";
-            this.C3.Size = new System.Drawing.Size(79, 57);
-            this.C3.TabIndex = 51;
-            this.C3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // C4
-            // 
-            this.C4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C4.Location = new System.Drawing.Point(182, 280);
-            this.C4.Margin = new System.Windows.Forms.Padding(0);
-            this.C4.Name = "C4";
-            this.C4.Size = new System.Drawing.Size(79, 57);
-            this.C4.TabIndex = 51;
-            this.C4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // C5
-            // 
-            this.C5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C5.Location = new System.Drawing.Point(182, 222);
-            this.C5.Margin = new System.Windows.Forms.Padding(0);
-            this.C5.Name = "C5";
-            this.C5.Size = new System.Drawing.Size(79, 57);
-            this.C5.TabIndex = 51;
-            this.C5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // C6
-            // 
-            this.C6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C6.Location = new System.Drawing.Point(182, 164);
-            this.C6.Margin = new System.Windows.Forms.Padding(0);
-            this.C6.Name = "C6";
-            this.C6.Size = new System.Drawing.Size(79, 57);
-            this.C6.TabIndex = 51;
-            this.C6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // B2
-            // 
-            this.B2.Controls.Add(this.White_Pawn_2);
-            this.B2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B2.Location = new System.Drawing.Point(102, 396);
-            this.B2.Margin = new System.Windows.Forms.Padding(0);
-            this.B2.Name = "B2";
-            this.B2.Size = new System.Drawing.Size(79, 57);
-            this.B2.TabIndex = 51;
-            // 
-            // White_Pawn_2
-            // 
-            this.White_Pawn_2.BackColor = System.Drawing.Color.DarkGray;
-            this.White_Pawn_2.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
-            this.White_Pawn_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_Pawn_2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_Pawn_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_Pawn_2.ForeColor = System.Drawing.Color.Black;
-            this.White_Pawn_2.Location = new System.Drawing.Point(0, 0);
-            this.White_Pawn_2.Margin = new System.Windows.Forms.Padding(0);
-            this.White_Pawn_2.Name = "White_Pawn_2";
-            this.White_Pawn_2.Size = new System.Drawing.Size(79, 57);
-            this.White_Pawn_2.TabIndex = 34;
-            this.White_Pawn_2.Tag = "White";
-            this.White_Pawn_2.UseVisualStyleBackColor = false;
-            this.White_Pawn_2.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // B3
-            // 
-            this.B3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B3.Location = new System.Drawing.Point(102, 338);
-            this.B3.Margin = new System.Windows.Forms.Padding(0);
-            this.B3.Name = "B3";
-            this.B3.Size = new System.Drawing.Size(79, 57);
-            this.B3.TabIndex = 51;
-            this.B3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // B4
-            // 
-            this.B4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B4.Location = new System.Drawing.Point(102, 280);
-            this.B4.Margin = new System.Windows.Forms.Padding(0);
-            this.B4.Name = "B4";
-            this.B4.Size = new System.Drawing.Size(79, 57);
-            this.B4.TabIndex = 51;
-            this.B4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // B5
-            // 
-            this.B5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B5.Location = new System.Drawing.Point(102, 222);
-            this.B5.Margin = new System.Windows.Forms.Padding(0);
-            this.B5.Name = "B5";
-            this.B5.Size = new System.Drawing.Size(79, 57);
-            this.B5.TabIndex = 51;
-            this.B5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // B6
-            // 
-            this.B6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B6.Location = new System.Drawing.Point(102, 164);
-            this.B6.Margin = new System.Windows.Forms.Padding(0);
-            this.B6.Name = "B6";
-            this.B6.Size = new System.Drawing.Size(79, 57);
-            this.B6.TabIndex = 51;
-            this.B6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // A2
-            // 
-            this.A2.Controls.Add(this.White_Pawn_1);
-            this.A2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.A2.Location = new System.Drawing.Point(22, 396);
-            this.A2.Margin = new System.Windows.Forms.Padding(0);
-            this.A2.Name = "A2";
-            this.A2.Size = new System.Drawing.Size(79, 57);
-            this.A2.TabIndex = 51;
-            // 
-            // White_Pawn_1
-            // 
-            this.White_Pawn_1.BackColor = System.Drawing.Color.DarkGray;
-            this.White_Pawn_1.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
-            this.White_Pawn_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.White_Pawn_1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.White_Pawn_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.White_Pawn_1.ForeColor = System.Drawing.Color.Black;
-            this.White_Pawn_1.Location = new System.Drawing.Point(0, 0);
-            this.White_Pawn_1.Margin = new System.Windows.Forms.Padding(0);
-            this.White_Pawn_1.Name = "White_Pawn_1";
-            this.White_Pawn_1.Size = new System.Drawing.Size(79, 57);
-            this.White_Pawn_1.TabIndex = 33;
-            this.White_Pawn_1.Tag = "White";
-            this.White_Pawn_1.UseVisualStyleBackColor = false;
-            this.White_Pawn_1.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // A3
-            // 
-            this.A3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.A3.Location = new System.Drawing.Point(22, 338);
-            this.A3.Margin = new System.Windows.Forms.Padding(0);
-            this.A3.Name = "A3";
-            this.A3.Size = new System.Drawing.Size(79, 57);
-            this.A3.TabIndex = 51;
-            this.A3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // A4
-            // 
-            this.A4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.A4.Location = new System.Drawing.Point(22, 280);
-            this.A4.Margin = new System.Windows.Forms.Padding(0);
-            this.A4.Name = "A4";
-            this.A4.Size = new System.Drawing.Size(79, 57);
-            this.A4.TabIndex = 51;
-            this.A4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // A5
-            // 
-            this.A5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.A5.Location = new System.Drawing.Point(22, 222);
-            this.A5.Margin = new System.Windows.Forms.Padding(0);
-            this.A5.Name = "A5";
-            this.A5.Size = new System.Drawing.Size(79, 57);
-            this.A5.TabIndex = 51;
-            this.A5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // A6
-            // 
-            this.A6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.A6.Location = new System.Drawing.Point(22, 164);
-            this.A6.Margin = new System.Windows.Forms.Padding(0);
-            this.A6.Name = "A6";
-            this.A6.Size = new System.Drawing.Size(79, 57);
-            this.A6.TabIndex = 51;
-            this.A6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
-            // 
-            // H7
-            // 
-            this.H7.Controls.Add(this.Black_Pawn_8);
-            this.H7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H7.Location = new System.Drawing.Point(582, 106);
-            this.H7.Margin = new System.Windows.Forms.Padding(0);
-            this.H7.Name = "H7";
-            this.H7.Size = new System.Drawing.Size(79, 57);
-            this.H7.TabIndex = 51;
-            // 
-            // Black_Pawn_8
-            // 
-            this.Black_Pawn_8.BackColor = System.Drawing.Color.White;
-            this.Black_Pawn_8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Black_Pawn_8.BackgroundImage")));
-            this.Black_Pawn_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Black_Pawn_8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Black_Pawn_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Black_Pawn_8.ForeColor = System.Drawing.Color.White;
-            this.Black_Pawn_8.Location = new System.Drawing.Point(0, 0);
-            this.Black_Pawn_8.Margin = new System.Windows.Forms.Padding(0);
-            this.Black_Pawn_8.Name = "Black_Pawn_8";
-            this.Black_Pawn_8.Size = new System.Drawing.Size(79, 57);
-            this.Black_Pawn_8.TabIndex = 7;
-            this.Black_Pawn_8.Tag = "Black";
-            this.Black_Pawn_8.UseVisualStyleBackColor = false;
-            this.Black_Pawn_8.Click += new System.EventHandler(this.OnEntityClicked);
-            // 
-            // G7
-            // 
-            this.G7.Controls.Add(this.Black_Pawn_7);
-            this.G7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G7.Location = new System.Drawing.Point(502, 106);
-            this.G7.Margin = new System.Windows.Forms.Padding(0);
-            this.G7.Name = "G7";
-            this.G7.Size = new System.Drawing.Size(79, 57);
-            this.G7.TabIndex = 51;
             // 
             // Black_Pawn_7
             // 
@@ -1330,15 +716,110 @@
             this.Black_Pawn_7.UseVisualStyleBackColor = false;
             this.Black_Pawn_7.Click += new System.EventHandler(this.OnEntityClicked);
             // 
-            // F7
+            // G6
             // 
-            this.F7.Controls.Add(this.Black_Pawn_6);
-            this.F7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F7.Location = new System.Drawing.Point(422, 106);
-            this.F7.Margin = new System.Windows.Forms.Padding(0);
-            this.F7.Name = "F7";
-            this.F7.Size = new System.Drawing.Size(79, 57);
-            this.F7.TabIndex = 51;
+            this.G6.Controls.Add(this.Black_Knight_2);
+            this.G6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.G6.Location = new System.Drawing.Point(502, 164);
+            this.G6.Margin = new System.Windows.Forms.Padding(0);
+            this.G6.Name = "G6";
+            this.G6.Size = new System.Drawing.Size(79, 57);
+            this.G6.TabIndex = 51;
+            this.G6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // Black_Knight_2
+            // 
+            this.Black_Knight_2.BackColor = System.Drawing.Color.White;
+            this.Black_Knight_2.BackgroundImage = global::NinjaBoard.Properties.Resources.black_knight;
+            this.Black_Knight_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Black_Knight_2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Black_Knight_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Black_Knight_2.ForeColor = System.Drawing.Color.White;
+            this.Black_Knight_2.Location = new System.Drawing.Point(0, 0);
+            this.Black_Knight_2.Margin = new System.Windows.Forms.Padding(0);
+            this.Black_Knight_2.Name = "Black_Knight_2";
+            this.Black_Knight_2.Size = new System.Drawing.Size(79, 57);
+            this.Black_Knight_2.TabIndex = 40;
+            this.Black_Knight_2.Tag = "Black";
+            this.Black_Knight_2.UseVisualStyleBackColor = false;
+            this.Black_Knight_2.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // F2
+            // 
+            this.F2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.F2.Location = new System.Drawing.Point(422, 396);
+            this.F2.Margin = new System.Windows.Forms.Padding(0);
+            this.F2.Name = "F2";
+            this.F2.Size = new System.Drawing.Size(79, 57);
+            this.F2.TabIndex = 51;
+            this.F2.Click += new System.EventHandler(this.OnLocationClicked);
+            this.F2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // F3
+            // 
+            this.F3.Controls.Add(this.White_Bishop_2);
+            this.F3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.F3.Location = new System.Drawing.Point(422, 338);
+            this.F3.Margin = new System.Windows.Forms.Padding(0);
+            this.F3.Name = "F3";
+            this.F3.Size = new System.Drawing.Size(79, 57);
+            this.F3.TabIndex = 51;
+            this.F3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // White_Bishop_2
+            // 
+            this.White_Bishop_2.BackColor = System.Drawing.Color.DarkGray;
+            this.White_Bishop_2.BackgroundImage = global::NinjaBoard.Properties.Resources.white_bishop;
+            this.White_Bishop_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_Bishop_2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_Bishop_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_Bishop_2.Location = new System.Drawing.Point(0, 0);
+            this.White_Bishop_2.Margin = new System.Windows.Forms.Padding(0);
+            this.White_Bishop_2.Name = "White_Bishop_2";
+            this.White_Bishop_2.Size = new System.Drawing.Size(79, 57);
+            this.White_Bishop_2.TabIndex = 47;
+            this.White_Bishop_2.Tag = "White";
+            this.White_Bishop_2.UseVisualStyleBackColor = false;
+            this.White_Bishop_2.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // F4
+            // 
+            this.F4.Controls.Add(this.White_Pawn_6);
+            this.F4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.F4.Location = new System.Drawing.Point(422, 280);
+            this.F4.Margin = new System.Windows.Forms.Padding(0);
+            this.F4.Name = "F4";
+            this.F4.Size = new System.Drawing.Size(79, 57);
+            this.F4.TabIndex = 51;
+            this.F4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // White_Pawn_6
+            // 
+            this.White_Pawn_6.BackColor = System.Drawing.Color.DarkGray;
+            this.White_Pawn_6.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
+            this.White_Pawn_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_Pawn_6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_Pawn_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_Pawn_6.ForeColor = System.Drawing.Color.Black;
+            this.White_Pawn_6.Location = new System.Drawing.Point(0, 0);
+            this.White_Pawn_6.Margin = new System.Windows.Forms.Padding(0);
+            this.White_Pawn_6.Name = "White_Pawn_6";
+            this.White_Pawn_6.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_6.TabIndex = 38;
+            this.White_Pawn_6.Tag = "White";
+            this.White_Pawn_6.UseVisualStyleBackColor = false;
+            this.White_Pawn_6.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // F5
+            // 
+            this.F5.Controls.Add(this.Black_Pawn_6);
+            this.F5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.F5.Location = new System.Drawing.Point(422, 222);
+            this.F5.Margin = new System.Windows.Forms.Padding(0);
+            this.F5.Name = "F5";
+            this.F5.Size = new System.Drawing.Size(79, 57);
+            this.F5.TabIndex = 51;
+            this.F5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
             // Black_Pawn_6
             // 
@@ -1357,15 +838,110 @@
             this.Black_Pawn_6.UseVisualStyleBackColor = false;
             this.Black_Pawn_6.Click += new System.EventHandler(this.OnEntityClicked);
             // 
-            // E7
+            // F6
             // 
-            this.E7.Controls.Add(this.Black_Pawn_5);
-            this.E7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E7.Location = new System.Drawing.Point(342, 106);
-            this.E7.Margin = new System.Windows.Forms.Padding(0);
-            this.E7.Name = "E7";
-            this.E7.Size = new System.Drawing.Size(79, 57);
-            this.E7.TabIndex = 51;
+            this.F6.Controls.Add(this.Black_Bishop_2);
+            this.F6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.F6.Location = new System.Drawing.Point(422, 164);
+            this.F6.Margin = new System.Windows.Forms.Padding(0);
+            this.F6.Name = "F6";
+            this.F6.Size = new System.Drawing.Size(79, 57);
+            this.F6.TabIndex = 51;
+            this.F6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // Black_Bishop_2
+            // 
+            this.Black_Bishop_2.BackColor = System.Drawing.Color.White;
+            this.Black_Bishop_2.BackgroundImage = global::NinjaBoard.Properties.Resources.black_bishop;
+            this.Black_Bishop_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Black_Bishop_2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Black_Bishop_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Black_Bishop_2.ForeColor = System.Drawing.Color.White;
+            this.Black_Bishop_2.Location = new System.Drawing.Point(0, 0);
+            this.Black_Bishop_2.Margin = new System.Windows.Forms.Padding(0);
+            this.Black_Bishop_2.Name = "Black_Bishop_2";
+            this.Black_Bishop_2.Size = new System.Drawing.Size(79, 57);
+            this.Black_Bishop_2.TabIndex = 39;
+            this.Black_Bishop_2.Tag = "Black";
+            this.Black_Bishop_2.UseVisualStyleBackColor = false;
+            this.Black_Bishop_2.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // E2
+            // 
+            this.E2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.E2.Location = new System.Drawing.Point(342, 396);
+            this.E2.Margin = new System.Windows.Forms.Padding(0);
+            this.E2.Name = "E2";
+            this.E2.Size = new System.Drawing.Size(79, 57);
+            this.E2.TabIndex = 51;
+            this.E2.Click += new System.EventHandler(this.OnLocationClicked);
+            this.E2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // E3
+            // 
+            this.E3.Controls.Add(this.White_Queen);
+            this.E3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.E3.Location = new System.Drawing.Point(342, 338);
+            this.E3.Margin = new System.Windows.Forms.Padding(0);
+            this.E3.Name = "E3";
+            this.E3.Size = new System.Drawing.Size(79, 57);
+            this.E3.TabIndex = 51;
+            this.E3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // White_Queen
+            // 
+            this.White_Queen.BackColor = System.Drawing.Color.DarkGray;
+            this.White_Queen.BackgroundImage = global::NinjaBoard.Properties.Resources.white_queen;
+            this.White_Queen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_Queen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_Queen.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_Queen.Location = new System.Drawing.Point(0, 0);
+            this.White_Queen.Margin = new System.Windows.Forms.Padding(0);
+            this.White_Queen.Name = "White_Queen";
+            this.White_Queen.Size = new System.Drawing.Size(79, 57);
+            this.White_Queen.TabIndex = 48;
+            this.White_Queen.Tag = "White";
+            this.White_Queen.UseVisualStyleBackColor = false;
+            this.White_Queen.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // E4
+            // 
+            this.E4.Controls.Add(this.White_Pawn_5);
+            this.E4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.E4.Location = new System.Drawing.Point(342, 280);
+            this.E4.Margin = new System.Windows.Forms.Padding(0);
+            this.E4.Name = "E4";
+            this.E4.Size = new System.Drawing.Size(79, 57);
+            this.E4.TabIndex = 51;
+            this.E4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // White_Pawn_5
+            // 
+            this.White_Pawn_5.BackColor = System.Drawing.Color.DarkGray;
+            this.White_Pawn_5.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
+            this.White_Pawn_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_Pawn_5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_Pawn_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_Pawn_5.ForeColor = System.Drawing.Color.Black;
+            this.White_Pawn_5.Location = new System.Drawing.Point(0, 0);
+            this.White_Pawn_5.Margin = new System.Windows.Forms.Padding(0);
+            this.White_Pawn_5.Name = "White_Pawn_5";
+            this.White_Pawn_5.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_5.TabIndex = 37;
+            this.White_Pawn_5.Tag = "White";
+            this.White_Pawn_5.UseVisualStyleBackColor = false;
+            this.White_Pawn_5.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // E5
+            // 
+            this.E5.Controls.Add(this.Black_Pawn_5);
+            this.E5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.E5.Location = new System.Drawing.Point(342, 222);
+            this.E5.Margin = new System.Windows.Forms.Padding(0);
+            this.E5.Name = "E5";
+            this.E5.Size = new System.Drawing.Size(79, 57);
+            this.E5.TabIndex = 51;
+            this.E5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
             // Black_Pawn_5
             // 
@@ -1384,42 +960,110 @@
             this.Black_Pawn_5.UseVisualStyleBackColor = false;
             this.Black_Pawn_5.Click += new System.EventHandler(this.OnEntityClicked);
             // 
-            // C7
+            // E6
             // 
-            this.C7.Controls.Add(this.Black_Pawn_3);
-            this.C7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C7.Location = new System.Drawing.Point(182, 106);
-            this.C7.Margin = new System.Windows.Forms.Padding(0);
-            this.C7.Name = "C7";
-            this.C7.Size = new System.Drawing.Size(79, 57);
-            this.C7.TabIndex = 51;
+            this.E6.Controls.Add(this.Black_King);
+            this.E6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.E6.Location = new System.Drawing.Point(342, 164);
+            this.E6.Margin = new System.Windows.Forms.Padding(0);
+            this.E6.Name = "E6";
+            this.E6.Size = new System.Drawing.Size(79, 57);
+            this.E6.TabIndex = 51;
+            this.E6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
-            // Black_Pawn_3
+            // Black_King
             // 
-            this.Black_Pawn_3.BackColor = System.Drawing.Color.White;
-            this.Black_Pawn_3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Black_Pawn_3.BackgroundImage")));
-            this.Black_Pawn_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Black_Pawn_3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Black_Pawn_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Black_Pawn_3.ForeColor = System.Drawing.Color.White;
-            this.Black_Pawn_3.Location = new System.Drawing.Point(0, 0);
-            this.Black_Pawn_3.Margin = new System.Windows.Forms.Padding(0);
-            this.Black_Pawn_3.Name = "Black_Pawn_3";
-            this.Black_Pawn_3.Size = new System.Drawing.Size(79, 57);
-            this.Black_Pawn_3.TabIndex = 2;
-            this.Black_Pawn_3.Tag = "Black";
-            this.Black_Pawn_3.UseVisualStyleBackColor = false;
-            this.Black_Pawn_3.Click += new System.EventHandler(this.OnEntityClicked);
+            this.Black_King.BackColor = System.Drawing.Color.White;
+            this.Black_King.BackgroundImage = global::NinjaBoard.Properties.Resources.black_king;
+            this.Black_King.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Black_King.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Black_King.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Black_King.ForeColor = System.Drawing.Color.White;
+            this.Black_King.Location = new System.Drawing.Point(0, 0);
+            this.Black_King.Margin = new System.Windows.Forms.Padding(0);
+            this.Black_King.Name = "Black_King";
+            this.Black_King.Size = new System.Drawing.Size(79, 57);
+            this.Black_King.TabIndex = 38;
+            this.Black_King.Tag = "Black";
+            this.Black_King.UseVisualStyleBackColor = false;
+            this.Black_King.Click += new System.EventHandler(this.OnEntityClicked);
             // 
-            // D7
+            // D2
             // 
-            this.D7.Controls.Add(this.Black_Pawn_4);
-            this.D7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D7.Location = new System.Drawing.Point(262, 106);
-            this.D7.Margin = new System.Windows.Forms.Padding(0);
-            this.D7.Name = "D7";
-            this.D7.Size = new System.Drawing.Size(79, 57);
-            this.D7.TabIndex = 51;
+            this.D2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.D2.Location = new System.Drawing.Point(262, 396);
+            this.D2.Margin = new System.Windows.Forms.Padding(0);
+            this.D2.Name = "D2";
+            this.D2.Size = new System.Drawing.Size(79, 57);
+            this.D2.TabIndex = 51;
+            this.D2.Click += new System.EventHandler(this.OnLocationClicked);
+            this.D2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // D3
+            // 
+            this.D3.Controls.Add(this.White_King);
+            this.D3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.D3.Location = new System.Drawing.Point(262, 338);
+            this.D3.Margin = new System.Windows.Forms.Padding(0);
+            this.D3.Name = "D3";
+            this.D3.Size = new System.Drawing.Size(79, 57);
+            this.D3.TabIndex = 51;
+            this.D3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // White_King
+            // 
+            this.White_King.BackColor = System.Drawing.Color.DarkGray;
+            this.White_King.BackgroundImage = global::NinjaBoard.Properties.Resources.white_king;
+            this.White_King.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_King.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_King.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_King.Location = new System.Drawing.Point(0, 0);
+            this.White_King.Margin = new System.Windows.Forms.Padding(0);
+            this.White_King.Name = "White_King";
+            this.White_King.Size = new System.Drawing.Size(79, 57);
+            this.White_King.TabIndex = 49;
+            this.White_King.Tag = "White";
+            this.White_King.UseVisualStyleBackColor = false;
+            this.White_King.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // D4
+            // 
+            this.D4.Controls.Add(this.White_Pawn_4);
+            this.D4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.D4.Location = new System.Drawing.Point(262, 280);
+            this.D4.Margin = new System.Windows.Forms.Padding(0);
+            this.D4.Name = "D4";
+            this.D4.Size = new System.Drawing.Size(79, 57);
+            this.D4.TabIndex = 51;
+            this.D4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // White_Pawn_4
+            // 
+            this.White_Pawn_4.BackColor = System.Drawing.Color.DarkGray;
+            this.White_Pawn_4.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
+            this.White_Pawn_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_Pawn_4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_Pawn_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_Pawn_4.ForeColor = System.Drawing.Color.Black;
+            this.White_Pawn_4.Location = new System.Drawing.Point(0, 0);
+            this.White_Pawn_4.Margin = new System.Windows.Forms.Padding(0);
+            this.White_Pawn_4.Name = "White_Pawn_4";
+            this.White_Pawn_4.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_4.TabIndex = 36;
+            this.White_Pawn_4.Tag = "White";
+            this.White_Pawn_4.UseVisualStyleBackColor = false;
+            this.White_Pawn_4.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // D5
+            // 
+            this.D5.Controls.Add(this.Black_Pawn_4);
+            this.D5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.D5.Location = new System.Drawing.Point(262, 222);
+            this.D5.Margin = new System.Windows.Forms.Padding(0);
+            this.D5.Name = "D5";
+            this.D5.Size = new System.Drawing.Size(79, 57);
+            this.D5.TabIndex = 51;
+            this.D5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
             // Black_Pawn_4
             // 
@@ -1438,15 +1082,232 @@
             this.Black_Pawn_4.UseVisualStyleBackColor = false;
             this.Black_Pawn_4.Click += new System.EventHandler(this.OnEntityClicked);
             // 
-            // B7
+            // D6
             // 
-            this.B7.Controls.Add(this.Black_Pawn_2);
-            this.B7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B7.Location = new System.Drawing.Point(102, 106);
-            this.B7.Margin = new System.Windows.Forms.Padding(0);
-            this.B7.Name = "B7";
-            this.B7.Size = new System.Drawing.Size(79, 57);
-            this.B7.TabIndex = 51;
+            this.D6.Controls.Add(this.Black_Queen);
+            this.D6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.D6.Location = new System.Drawing.Point(262, 164);
+            this.D6.Margin = new System.Windows.Forms.Padding(0);
+            this.D6.Name = "D6";
+            this.D6.Size = new System.Drawing.Size(79, 57);
+            this.D6.TabIndex = 51;
+            this.D6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // Black_Queen
+            // 
+            this.Black_Queen.BackColor = System.Drawing.Color.White;
+            this.Black_Queen.BackgroundImage = global::NinjaBoard.Properties.Resources.black_queen;
+            this.Black_Queen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Black_Queen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Black_Queen.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Black_Queen.ForeColor = System.Drawing.Color.White;
+            this.Black_Queen.Location = new System.Drawing.Point(0, 0);
+            this.Black_Queen.Margin = new System.Windows.Forms.Padding(0);
+            this.Black_Queen.Name = "Black_Queen";
+            this.Black_Queen.Size = new System.Drawing.Size(79, 57);
+            this.Black_Queen.TabIndex = 37;
+            this.Black_Queen.Tag = "Black";
+            this.Black_Queen.UseVisualStyleBackColor = false;
+            this.Black_Queen.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // C2
+            // 
+            this.C2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.C2.Location = new System.Drawing.Point(182, 396);
+            this.C2.Margin = new System.Windows.Forms.Padding(0);
+            this.C2.Name = "C2";
+            this.C2.Size = new System.Drawing.Size(79, 57);
+            this.C2.TabIndex = 51;
+            this.C2.Click += new System.EventHandler(this.OnLocationClicked);
+            this.C2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // C3
+            // 
+            this.C3.Controls.Add(this.White_Bishop_1);
+            this.C3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.C3.Location = new System.Drawing.Point(182, 338);
+            this.C3.Margin = new System.Windows.Forms.Padding(0);
+            this.C3.Name = "C3";
+            this.C3.Size = new System.Drawing.Size(79, 57);
+            this.C3.TabIndex = 51;
+            this.C3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // White_Bishop_1
+            // 
+            this.White_Bishop_1.BackColor = System.Drawing.Color.DarkGray;
+            this.White_Bishop_1.BackgroundImage = global::NinjaBoard.Properties.Resources.white_bishop;
+            this.White_Bishop_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_Bishop_1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_Bishop_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_Bishop_1.Location = new System.Drawing.Point(0, 0);
+            this.White_Bishop_1.Margin = new System.Windows.Forms.Padding(0);
+            this.White_Bishop_1.Name = "White_Bishop_1";
+            this.White_Bishop_1.Size = new System.Drawing.Size(79, 57);
+            this.White_Bishop_1.TabIndex = 44;
+            this.White_Bishop_1.Tag = "White";
+            this.White_Bishop_1.UseVisualStyleBackColor = false;
+            this.White_Bishop_1.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // C4
+            // 
+            this.C4.Controls.Add(this.White_Pawn_3);
+            this.C4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.C4.Location = new System.Drawing.Point(182, 280);
+            this.C4.Margin = new System.Windows.Forms.Padding(0);
+            this.C4.Name = "C4";
+            this.C4.Size = new System.Drawing.Size(79, 57);
+            this.C4.TabIndex = 51;
+            this.C4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // White_Pawn_3
+            // 
+            this.White_Pawn_3.BackColor = System.Drawing.Color.DarkGray;
+            this.White_Pawn_3.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
+            this.White_Pawn_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_Pawn_3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_Pawn_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_Pawn_3.ForeColor = System.Drawing.Color.Black;
+            this.White_Pawn_3.Location = new System.Drawing.Point(0, 0);
+            this.White_Pawn_3.Margin = new System.Windows.Forms.Padding(0);
+            this.White_Pawn_3.Name = "White_Pawn_3";
+            this.White_Pawn_3.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_3.TabIndex = 35;
+            this.White_Pawn_3.Tag = "White";
+            this.White_Pawn_3.UseVisualStyleBackColor = false;
+            this.White_Pawn_3.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // C5
+            // 
+            this.C5.Controls.Add(this.Black_Pawn_3);
+            this.C5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.C5.Location = new System.Drawing.Point(182, 222);
+            this.C5.Margin = new System.Windows.Forms.Padding(0);
+            this.C5.Name = "C5";
+            this.C5.Size = new System.Drawing.Size(79, 57);
+            this.C5.TabIndex = 51;
+            this.C5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // Black_Pawn_3
+            // 
+            this.Black_Pawn_3.BackColor = System.Drawing.Color.White;
+            this.Black_Pawn_3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Black_Pawn_3.BackgroundImage")));
+            this.Black_Pawn_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Black_Pawn_3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Black_Pawn_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Black_Pawn_3.ForeColor = System.Drawing.Color.White;
+            this.Black_Pawn_3.Location = new System.Drawing.Point(0, 0);
+            this.Black_Pawn_3.Margin = new System.Windows.Forms.Padding(0);
+            this.Black_Pawn_3.Name = "Black_Pawn_3";
+            this.Black_Pawn_3.Size = new System.Drawing.Size(79, 57);
+            this.Black_Pawn_3.TabIndex = 2;
+            this.Black_Pawn_3.Tag = "Black";
+            this.Black_Pawn_3.UseVisualStyleBackColor = false;
+            this.Black_Pawn_3.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // C6
+            // 
+            this.C6.Controls.Add(this.Black_Bishop_1);
+            this.C6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.C6.Location = new System.Drawing.Point(182, 164);
+            this.C6.Margin = new System.Windows.Forms.Padding(0);
+            this.C6.Name = "C6";
+            this.C6.Size = new System.Drawing.Size(79, 57);
+            this.C6.TabIndex = 51;
+            this.C6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // Black_Bishop_1
+            // 
+            this.Black_Bishop_1.BackColor = System.Drawing.Color.White;
+            this.Black_Bishop_1.BackgroundImage = global::NinjaBoard.Properties.Resources.black_bishop;
+            this.Black_Bishop_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Black_Bishop_1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Black_Bishop_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Black_Bishop_1.ForeColor = System.Drawing.Color.White;
+            this.Black_Bishop_1.Location = new System.Drawing.Point(0, 0);
+            this.Black_Bishop_1.Margin = new System.Windows.Forms.Padding(0);
+            this.Black_Bishop_1.Name = "Black_Bishop_1";
+            this.Black_Bishop_1.Size = new System.Drawing.Size(79, 57);
+            this.Black_Bishop_1.TabIndex = 36;
+            this.Black_Bishop_1.Tag = "Black";
+            this.Black_Bishop_1.UseVisualStyleBackColor = false;
+            this.Black_Bishop_1.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // B2
+            // 
+            this.B2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.B2.Location = new System.Drawing.Point(102, 396);
+            this.B2.Margin = new System.Windows.Forms.Padding(0);
+            this.B2.Name = "B2";
+            this.B2.Size = new System.Drawing.Size(79, 57);
+            this.B2.TabIndex = 51;
+            this.B2.Click += new System.EventHandler(this.OnLocationClicked);
+            this.B2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // B3
+            // 
+            this.B3.Controls.Add(this.White_Knight_1);
+            this.B3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.B3.Location = new System.Drawing.Point(102, 338);
+            this.B3.Margin = new System.Windows.Forms.Padding(0);
+            this.B3.Name = "B3";
+            this.B3.Size = new System.Drawing.Size(79, 57);
+            this.B3.TabIndex = 51;
+            this.B3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // White_Knight_1
+            // 
+            this.White_Knight_1.BackColor = System.Drawing.Color.DarkGray;
+            this.White_Knight_1.BackgroundImage = global::NinjaBoard.Properties.Resources.white_knight;
+            this.White_Knight_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_Knight_1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_Knight_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_Knight_1.Location = new System.Drawing.Point(0, 0);
+            this.White_Knight_1.Margin = new System.Windows.Forms.Padding(0);
+            this.White_Knight_1.Name = "White_Knight_1";
+            this.White_Knight_1.Size = new System.Drawing.Size(79, 57);
+            this.White_Knight_1.TabIndex = 42;
+            this.White_Knight_1.Tag = "White";
+            this.White_Knight_1.UseVisualStyleBackColor = false;
+            this.White_Knight_1.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // B4
+            // 
+            this.B4.Controls.Add(this.White_Pawn_2);
+            this.B4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.B4.Location = new System.Drawing.Point(102, 280);
+            this.B4.Margin = new System.Windows.Forms.Padding(0);
+            this.B4.Name = "B4";
+            this.B4.Size = new System.Drawing.Size(79, 57);
+            this.B4.TabIndex = 51;
+            this.B4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // White_Pawn_2
+            // 
+            this.White_Pawn_2.BackColor = System.Drawing.Color.DarkGray;
+            this.White_Pawn_2.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
+            this.White_Pawn_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_Pawn_2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_Pawn_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_Pawn_2.ForeColor = System.Drawing.Color.Black;
+            this.White_Pawn_2.Location = new System.Drawing.Point(0, 0);
+            this.White_Pawn_2.Margin = new System.Windows.Forms.Padding(0);
+            this.White_Pawn_2.Name = "White_Pawn_2";
+            this.White_Pawn_2.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_2.TabIndex = 34;
+            this.White_Pawn_2.Tag = "White";
+            this.White_Pawn_2.UseVisualStyleBackColor = false;
+            this.White_Pawn_2.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // B5
+            // 
+            this.B5.Controls.Add(this.Black_Pawn_2);
+            this.B5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.B5.Location = new System.Drawing.Point(102, 222);
+            this.B5.Margin = new System.Windows.Forms.Padding(0);
+            this.B5.Name = "B5";
+            this.B5.Size = new System.Drawing.Size(79, 57);
+            this.B5.TabIndex = 51;
+            this.B5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
             // Black_Pawn_2
             // 
@@ -1464,6 +1325,233 @@
             this.Black_Pawn_2.Tag = "Black";
             this.Black_Pawn_2.UseVisualStyleBackColor = false;
             this.Black_Pawn_2.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // B6
+            // 
+            this.B6.Controls.Add(this.Black_Knight_1);
+            this.B6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.B6.Location = new System.Drawing.Point(102, 164);
+            this.B6.Margin = new System.Windows.Forms.Padding(0);
+            this.B6.Name = "B6";
+            this.B6.Size = new System.Drawing.Size(79, 57);
+            this.B6.TabIndex = 51;
+            this.B6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // Black_Knight_1
+            // 
+            this.Black_Knight_1.BackColor = System.Drawing.Color.White;
+            this.Black_Knight_1.BackgroundImage = global::NinjaBoard.Properties.Resources.black_knight;
+            this.Black_Knight_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Black_Knight_1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Black_Knight_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Black_Knight_1.ForeColor = System.Drawing.Color.White;
+            this.Black_Knight_1.Location = new System.Drawing.Point(0, 0);
+            this.Black_Knight_1.Margin = new System.Windows.Forms.Padding(0);
+            this.Black_Knight_1.Name = "Black_Knight_1";
+            this.Black_Knight_1.Size = new System.Drawing.Size(79, 57);
+            this.Black_Knight_1.TabIndex = 35;
+            this.Black_Knight_1.Tag = "Black";
+            this.Black_Knight_1.UseVisualStyleBackColor = false;
+            this.Black_Knight_1.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // A2
+            // 
+            this.A2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.A2.Location = new System.Drawing.Point(22, 396);
+            this.A2.Margin = new System.Windows.Forms.Padding(0);
+            this.A2.Name = "A2";
+            this.A2.Size = new System.Drawing.Size(79, 57);
+            this.A2.TabIndex = 51;
+            this.A2.Click += new System.EventHandler(this.OnLocationClicked);
+            this.A2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // A3
+            // 
+            this.A3.Controls.Add(this.White_Rook_1);
+            this.A3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.A3.Location = new System.Drawing.Point(22, 338);
+            this.A3.Margin = new System.Windows.Forms.Padding(0);
+            this.A3.Name = "A3";
+            this.A3.Size = new System.Drawing.Size(79, 57);
+            this.A3.TabIndex = 51;
+            this.A3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // White_Rook_1
+            // 
+            this.White_Rook_1.BackColor = System.Drawing.Color.DarkGray;
+            this.White_Rook_1.BackgroundImage = global::NinjaBoard.Properties.Resources.white_rook;
+            this.White_Rook_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_Rook_1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_Rook_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_Rook_1.ForeColor = System.Drawing.Color.Black;
+            this.White_Rook_1.Location = new System.Drawing.Point(0, 0);
+            this.White_Rook_1.Margin = new System.Windows.Forms.Padding(0);
+            this.White_Rook_1.Name = "White_Rook_1";
+            this.White_Rook_1.Size = new System.Drawing.Size(79, 57);
+            this.White_Rook_1.TabIndex = 32;
+            this.White_Rook_1.UseVisualStyleBackColor = false;
+            this.White_Rook_1.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // A4
+            // 
+            this.A4.Controls.Add(this.White_Pawn_1);
+            this.A4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.A4.Location = new System.Drawing.Point(22, 280);
+            this.A4.Margin = new System.Windows.Forms.Padding(0);
+            this.A4.Name = "A4";
+            this.A4.Size = new System.Drawing.Size(79, 57);
+            this.A4.TabIndex = 51;
+            this.A4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // White_Pawn_1
+            // 
+            this.White_Pawn_1.BackColor = System.Drawing.Color.DarkGray;
+            this.White_Pawn_1.BackgroundImage = global::NinjaBoard.Properties.Resources.white_pawn;
+            this.White_Pawn_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.White_Pawn_1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.White_Pawn_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.White_Pawn_1.ForeColor = System.Drawing.Color.Black;
+            this.White_Pawn_1.Location = new System.Drawing.Point(0, 0);
+            this.White_Pawn_1.Margin = new System.Windows.Forms.Padding(0);
+            this.White_Pawn_1.Name = "White_Pawn_1";
+            this.White_Pawn_1.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_1.TabIndex = 33;
+            this.White_Pawn_1.Tag = "White";
+            this.White_Pawn_1.UseVisualStyleBackColor = false;
+            this.White_Pawn_1.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // A5
+            // 
+            this.A5.Controls.Add(this.Black_Pawn_1);
+            this.A5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.A5.Location = new System.Drawing.Point(22, 222);
+            this.A5.Margin = new System.Windows.Forms.Padding(0);
+            this.A5.Name = "A5";
+            this.A5.Size = new System.Drawing.Size(79, 57);
+            this.A5.TabIndex = 51;
+            this.A5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // Black_Pawn_1
+            // 
+            this.Black_Pawn_1.BackColor = System.Drawing.Color.White;
+            this.Black_Pawn_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Black_Pawn_1.BackgroundImage")));
+            this.Black_Pawn_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Black_Pawn_1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Black_Pawn_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Black_Pawn_1.ForeColor = System.Drawing.Color.White;
+            this.Black_Pawn_1.Location = new System.Drawing.Point(0, 0);
+            this.Black_Pawn_1.Margin = new System.Windows.Forms.Padding(0);
+            this.Black_Pawn_1.Name = "Black_Pawn_1";
+            this.Black_Pawn_1.Size = new System.Drawing.Size(79, 57);
+            this.Black_Pawn_1.TabIndex = 0;
+            this.Black_Pawn_1.Tag = "Black";
+            this.Black_Pawn_1.UseVisualStyleBackColor = false;
+            this.Black_Pawn_1.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // A6
+            // 
+            this.A6.Controls.Add(this.Black_Rook_1);
+            this.A6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.A6.Location = new System.Drawing.Point(22, 164);
+            this.A6.Margin = new System.Windows.Forms.Padding(0);
+            this.A6.Name = "A6";
+            this.A6.Size = new System.Drawing.Size(79, 57);
+            this.A6.TabIndex = 51;
+            this.A6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // Black_Rook_1
+            // 
+            this.Black_Rook_1.BackColor = System.Drawing.Color.White;
+            this.Black_Rook_1.BackgroundImage = global::NinjaBoard.Properties.Resources.black_rook;
+            this.Black_Rook_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Black_Rook_1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Black_Rook_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Black_Rook_1.ForeColor = System.Drawing.Color.White;
+            this.Black_Rook_1.Location = new System.Drawing.Point(0, 0);
+            this.Black_Rook_1.Margin = new System.Windows.Forms.Padding(0);
+            this.Black_Rook_1.Name = "Black_Rook_1";
+            this.Black_Rook_1.Size = new System.Drawing.Size(79, 57);
+            this.Black_Rook_1.TabIndex = 1;
+            this.Black_Rook_1.Tag = "Black";
+            this.Black_Rook_1.UseVisualStyleBackColor = false;
+            this.Black_Rook_1.Click += new System.EventHandler(this.OnEntityClicked);
+            // 
+            // H7
+            // 
+            this.H7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.H7.Location = new System.Drawing.Point(582, 106);
+            this.H7.Margin = new System.Windows.Forms.Padding(0);
+            this.H7.Name = "H7";
+            this.H7.Size = new System.Drawing.Size(79, 57);
+            this.H7.TabIndex = 51;
+            this.H7.Click += new System.EventHandler(this.OnLocationClicked);
+            this.H7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // G7
+            // 
+            this.G7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.G7.Location = new System.Drawing.Point(502, 106);
+            this.G7.Margin = new System.Windows.Forms.Padding(0);
+            this.G7.Name = "G7";
+            this.G7.Size = new System.Drawing.Size(79, 57);
+            this.G7.TabIndex = 51;
+            this.G7.Click += new System.EventHandler(this.OnLocationClicked);
+            this.G7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // F7
+            // 
+            this.F7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.F7.Location = new System.Drawing.Point(422, 106);
+            this.F7.Margin = new System.Windows.Forms.Padding(0);
+            this.F7.Name = "F7";
+            this.F7.Size = new System.Drawing.Size(79, 57);
+            this.F7.TabIndex = 51;
+            this.F7.Click += new System.EventHandler(this.OnLocationClicked);
+            this.F7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // E7
+            // 
+            this.E7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.E7.Location = new System.Drawing.Point(342, 106);
+            this.E7.Margin = new System.Windows.Forms.Padding(0);
+            this.E7.Name = "E7";
+            this.E7.Size = new System.Drawing.Size(79, 57);
+            this.E7.TabIndex = 51;
+            this.E7.Click += new System.EventHandler(this.OnLocationClicked);
+            this.E7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // C7
+            // 
+            this.C7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.C7.Location = new System.Drawing.Point(182, 106);
+            this.C7.Margin = new System.Windows.Forms.Padding(0);
+            this.C7.Name = "C7";
+            this.C7.Size = new System.Drawing.Size(79, 57);
+            this.C7.TabIndex = 51;
+            this.C7.Click += new System.EventHandler(this.OnLocationClicked);
+            this.C7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // D7
+            // 
+            this.D7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.D7.Location = new System.Drawing.Point(262, 106);
+            this.D7.Margin = new System.Windows.Forms.Padding(0);
+            this.D7.Name = "D7";
+            this.D7.Size = new System.Drawing.Size(79, 57);
+            this.D7.TabIndex = 51;
+            this.D7.Click += new System.EventHandler(this.OnLocationClicked);
+            this.D7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
+            // 
+            // B7
+            // 
+            this.B7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.B7.Location = new System.Drawing.Point(102, 106);
+            this.B7.Margin = new System.Windows.Forms.Padding(0);
+            this.B7.Name = "B7";
+            this.B7.Size = new System.Drawing.Size(79, 57);
+            this.B7.TabIndex = 51;
+            this.B7.Click += new System.EventHandler(this.OnLocationClicked);
+            this.B7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
             // lblTopE
             // 
@@ -1919,7 +2007,7 @@
             this.BoardStatus.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BoardStatus.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Status,
-            this.toolStripDropDownButton1});
+            this.PlayerText});
             this.BoardStatus.Location = new System.Drawing.Point(1, 533);
             this.BoardStatus.Name = "BoardStatus";
             this.BoardStatus.Size = new System.Drawing.Size(682, 27);
@@ -1933,39 +2021,21 @@
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.Status.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter;
             this.Status.Name = "Status";
-            this.Status.Size = new System.Drawing.Size(615, 22);
+            this.Status.Size = new System.Drawing.Size(622, 22);
             this.Status.Spring = true;
             this.Status.Text = "Ready";
             this.Status.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // toolStripDropDownButton1
+            // PlayerText
             // 
-            this.toolStripDropDownButton1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiBlackPlayer,
-            this.tsmiWhitePlayer});
-            this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
-            this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(52, 25);
-            this.toolStripDropDownButton1.Text = "Player";
-            // 
-            // tsmiBlackPlayer
-            // 
-            this.tsmiBlackPlayer.CheckOnClick = true;
-            this.tsmiBlackPlayer.Name = "tsmiBlackPlayer";
-            this.tsmiBlackPlayer.Size = new System.Drawing.Size(105, 22);
-            this.tsmiBlackPlayer.Text = "Black";
-            this.tsmiBlackPlayer.Click += new System.EventHandler(this.OnBlackPlayer);
-            // 
-            // tsmiWhitePlayer
-            // 
-            this.tsmiWhitePlayer.CheckOnClick = true;
-            this.tsmiWhitePlayer.Name = "tsmiWhitePlayer";
-            this.tsmiWhitePlayer.Size = new System.Drawing.Size(105, 22);
-            this.tsmiWhitePlayer.Text = "White";
-            this.tsmiWhitePlayer.Click += new System.EventHandler(this.OnWhitePlayer);
+            this.PlayerText.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
+            this.PlayerText.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter;
+            this.PlayerText.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.PlayerText.Name = "PlayerText";
+            this.PlayerText.Size = new System.Drawing.Size(45, 22);
+            this.PlayerText.Text = "White";
             // 
             // menuStrip1
             // 
@@ -2012,57 +2082,25 @@
             // 
             // A7
             // 
-            this.A7.Controls.Add(this.Black_Pawn_1);
             this.A7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.A7.Location = new System.Drawing.Point(22, 106);
             this.A7.Margin = new System.Windows.Forms.Padding(0);
             this.A7.Name = "A7";
             this.A7.Size = new System.Drawing.Size(79, 57);
             this.A7.TabIndex = 50;
-            // 
-            // Black_Pawn_1
-            // 
-            this.Black_Pawn_1.BackColor = System.Drawing.Color.White;
-            this.Black_Pawn_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Black_Pawn_1.BackgroundImage")));
-            this.Black_Pawn_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Black_Pawn_1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Black_Pawn_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Black_Pawn_1.ForeColor = System.Drawing.Color.White;
-            this.Black_Pawn_1.Location = new System.Drawing.Point(0, 0);
-            this.Black_Pawn_1.Margin = new System.Windows.Forms.Padding(0);
-            this.Black_Pawn_1.Name = "Black_Pawn_1";
-            this.Black_Pawn_1.Size = new System.Drawing.Size(79, 57);
-            this.Black_Pawn_1.TabIndex = 0;
-            this.Black_Pawn_1.Tag = "Black";
-            this.Black_Pawn_1.UseVisualStyleBackColor = false;
-            this.Black_Pawn_1.Click += new System.EventHandler(this.OnEntityClicked);
+            this.A7.Click += new System.EventHandler(this.OnLocationClicked);
+            this.A7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
             // A8
             // 
-            this.A8.Controls.Add(this.Black_Rook_1);
             this.A8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.A8.Location = new System.Drawing.Point(22, 48);
             this.A8.Margin = new System.Windows.Forms.Padding(0);
             this.A8.Name = "A8";
             this.A8.Size = new System.Drawing.Size(79, 57);
             this.A8.TabIndex = 52;
-            // 
-            // Black_Rook_1
-            // 
-            this.Black_Rook_1.BackColor = System.Drawing.Color.White;
-            this.Black_Rook_1.BackgroundImage = global::NinjaBoard.Properties.Resources.black_rook;
-            this.Black_Rook_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Black_Rook_1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Black_Rook_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Black_Rook_1.ForeColor = System.Drawing.Color.White;
-            this.Black_Rook_1.Location = new System.Drawing.Point(0, 0);
-            this.Black_Rook_1.Margin = new System.Windows.Forms.Padding(0);
-            this.Black_Rook_1.Name = "Black_Rook_1";
-            this.Black_Rook_1.Size = new System.Drawing.Size(79, 57);
-            this.Black_Rook_1.TabIndex = 1;
-            this.Black_Rook_1.Tag = "Black";
-            this.Black_Rook_1.UseVisualStyleBackColor = false;
-            this.Black_Rook_1.Click += new System.EventHandler(this.OnEntityClicked);
+            this.A8.Click += new System.EventHandler(this.OnLocationClicked);
+            this.A8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
             // Board
             // 
@@ -2081,42 +2119,42 @@
             this.Load += new System.EventHandler(this.OnLoad);
             this.tlpMain.ResumeLayout(false);
             this.tlpMain.PerformLayout();
-            this.H1.ResumeLayout(false);
-            this.G1.ResumeLayout(false);
-            this.F1.ResumeLayout(false);
-            this.E1.ResumeLayout(false);
-            this.D1.ResumeLayout(false);
-            this.C1.ResumeLayout(false);
-            this.B1.ResumeLayout(false);
-            this.A1.ResumeLayout(false);
-            this.H8.ResumeLayout(false);
-            this.G8.ResumeLayout(false);
-            this.F8.ResumeLayout(false);
-            this.E8.ResumeLayout(false);
-            this.D8.ResumeLayout(false);
-            this.C8.ResumeLayout(false);
-            this.B8.ResumeLayout(false);
-            this.H2.ResumeLayout(false);
-            this.G2.ResumeLayout(false);
-            this.F2.ResumeLayout(false);
-            this.E2.ResumeLayout(false);
-            this.D2.ResumeLayout(false);
-            this.C2.ResumeLayout(false);
-            this.B2.ResumeLayout(false);
-            this.A2.ResumeLayout(false);
-            this.H7.ResumeLayout(false);
-            this.G7.ResumeLayout(false);
-            this.F7.ResumeLayout(false);
-            this.E7.ResumeLayout(false);
-            this.C7.ResumeLayout(false);
-            this.D7.ResumeLayout(false);
-            this.B7.ResumeLayout(false);
+            this.H3.ResumeLayout(false);
+            this.H4.ResumeLayout(false);
+            this.H5.ResumeLayout(false);
+            this.H6.ResumeLayout(false);
+            this.G3.ResumeLayout(false);
+            this.G4.ResumeLayout(false);
+            this.G5.ResumeLayout(false);
+            this.G6.ResumeLayout(false);
+            this.F3.ResumeLayout(false);
+            this.F4.ResumeLayout(false);
+            this.F5.ResumeLayout(false);
+            this.F6.ResumeLayout(false);
+            this.E3.ResumeLayout(false);
+            this.E4.ResumeLayout(false);
+            this.E5.ResumeLayout(false);
+            this.E6.ResumeLayout(false);
+            this.D3.ResumeLayout(false);
+            this.D4.ResumeLayout(false);
+            this.D5.ResumeLayout(false);
+            this.D6.ResumeLayout(false);
+            this.C3.ResumeLayout(false);
+            this.C4.ResumeLayout(false);
+            this.C5.ResumeLayout(false);
+            this.C6.ResumeLayout(false);
+            this.B3.ResumeLayout(false);
+            this.B4.ResumeLayout(false);
+            this.B5.ResumeLayout(false);
+            this.B6.ResumeLayout(false);
+            this.A3.ResumeLayout(false);
+            this.A4.ResumeLayout(false);
+            this.A5.ResumeLayout(false);
+            this.A6.ResumeLayout(false);
             this.BoardStatus.ResumeLayout(false);
             this.BoardStatus.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.A7.ResumeLayout(false);
-            this.A8.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2158,9 +2196,6 @@
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Button White_Rook_1;
         private System.Windows.Forms.StatusStrip BoardStatus;
-        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
-        private System.Windows.Forms.ToolStripMenuItem tsmiBlackPlayer;
-        private System.Windows.Forms.ToolStripMenuItem tsmiWhitePlayer;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem gameToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tsmiNewGame;
@@ -2261,6 +2296,7 @@
         private System.Windows.Forms.Button White_Pawn_1;
         private System.Windows.Forms.ToolStripMenuItem tsmiReplayGame;
         private System.Windows.Forms.ToolStripMenuItem tsmiReplayGameBackwards;
+        private System.Windows.Forms.ToolStripStatusLabel PlayerText;
     }
 }
 
