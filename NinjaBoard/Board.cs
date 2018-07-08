@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Threading;
 using System.Windows.Forms;
 using NinjaBoard.Business.Services;
 using NinjaBoard.Database.Repositories;
+using NinjaBoard.Events;
 using NinjaBoard.Model;
 
 namespace NinjaBoard
@@ -29,7 +31,7 @@ namespace NinjaBoard
         {
             InitializeComponent();
 
-            Server = new Server(new Repository());
+            Server = new Server(new Repository(), new EventRepository());
 
             Game = Server.CreateGame();
         }
@@ -41,7 +43,7 @@ namespace NinjaBoard
         private void OnLoad(object sender, EventArgs e)
         {
             foreach (var i in Server.GetGameById(Game))
-                SetLocation(GetCoin(i.Key), GetPosition(i.Value));
+                SetPosition(GetCoin(i.Key), GetPosition(i.Value));
 
             Player = Player.White;
 
@@ -59,12 +61,27 @@ namespace NinjaBoard
 
         private void OnReplayGame(object sender, EventArgs e)
         {
+            foreach (var i in Server.GetEvents(Game))
+            {
+                if (i is GameStartedEvent)
+                {
+                    Reset();
+                }
 
-        }
+                if (i is CoinMovedEvent)
+                {
+                    var moved = i as CoinMovedEvent;
 
-        private void OnReplayGameBackwards(object sender, EventArgs e)
-        {
+                    if (moved != null)
+                    {
+                        SetPosition(GetCoin(moved.Coin), GetPosition(moved.Destination));
+                    }
+                }
 
+                Thread.Sleep(1000);
+
+                Application.DoEvents();
+            }
         }
 
         private void OnEntityClicked(object sender, EventArgs e)
@@ -101,7 +118,9 @@ namespace NinjaBoard
 
                 if (position != null)
                 {
-                    SetLocation(Coin, position);
+                    SetPosition(Coin, position);
+                    Server.Move(Game, Player, GetCoin(Coin), GetPosition(Coin.Parent as Panel), GetPosition(position));
+                    Unselect();
                     Change();
                 }
             }
@@ -113,7 +132,7 @@ namespace NinjaBoard
 
         #region Helpers
 
-        private void SetLocation(Button coin, Panel position)
+        private void SetPosition(Button coin, Panel position)
         {
             var source = coin.Parent as Panel;
 
@@ -123,7 +142,6 @@ namespace NinjaBoard
                 source.Controls.Remove(coin);
                 position.Controls.Add(coin);
                 coin.Dock = DockStyle.Fill;
-                Unselect();
             }
         }
 
@@ -134,6 +152,8 @@ namespace NinjaBoard
             coin.Controls.Remove(coin);
             position.Controls.Add(coin);
             Unselect();
+
+            Server.Replace(Game, Player, GetCoin(coin), GetCoin(target), GetPosition(coin.Parent as Panel), GetPosition(target.Parent as Panel));
         }
 
         private void Select(Button coin)
@@ -160,41 +180,41 @@ namespace NinjaBoard
 
         private void Reset()
         {
-            SetLocation(Black_Rook_1, A8);
-            SetLocation(Black_Knight_1, B8);
-            SetLocation(Black_Bishop_1, C8);
-            SetLocation(Black_Queen, D8);
-            SetLocation(Black_King, E8);
-            SetLocation(Black_Bishop_2, F8);
-            SetLocation(Black_Knight_2, G8);
-            SetLocation(Black_Rook_2, H8);
+            SetPosition(Black_Rook_1, A8);
+            SetPosition(Black_Knight_1, B8);
+            SetPosition(Black_Bishop_1, C8);
+            SetPosition(Black_Queen, D8);
+            SetPosition(Black_King, E8);
+            SetPosition(Black_Bishop_2, F8);
+            SetPosition(Black_Knight_2, G8);
+            SetPosition(Black_Rook_2, H8);
 
-            SetLocation(Black_Pawn_1, A7);
-            SetLocation(Black_Pawn_2, B7);
-            SetLocation(Black_Pawn_3, C7);
-            SetLocation(Black_Pawn_4, D7);
-            SetLocation(Black_Pawn_5, E7);
-            SetLocation(Black_Pawn_6, F7);
-            SetLocation(Black_Pawn_7, G7);
-            SetLocation(Black_Pawn_8, H7);
+            SetPosition(Black_Pawn_1, A7);
+            SetPosition(Black_Pawn_2, B7);
+            SetPosition(Black_Pawn_3, C7);
+            SetPosition(Black_Pawn_4, D7);
+            SetPosition(Black_Pawn_5, E7);
+            SetPosition(Black_Pawn_6, F7);
+            SetPosition(Black_Pawn_7, G7);
+            SetPosition(Black_Pawn_8, H7);
 
-            SetLocation(White_Rook_1, A1);
-            SetLocation(White_Knight_1, B1);
-            SetLocation(White_Bishop_1, C1);
-            SetLocation(White_Queen, D1);
-            SetLocation(White_King, E1);
-            SetLocation(White_Bishop_2, F1);
-            SetLocation(White_Knight_2, G1);
-            SetLocation(White_Rook_2, H1);
+            SetPosition(White_Rook_1, A1);
+            SetPosition(White_Knight_1, B1);
+            SetPosition(White_Bishop_1, C1);
+            SetPosition(White_Queen, D1);
+            SetPosition(White_King, E1);
+            SetPosition(White_Bishop_2, F1);
+            SetPosition(White_Knight_2, G1);
+            SetPosition(White_Rook_2, H1);
 
-            SetLocation(White_Pawn_1, A2);
-            SetLocation(White_Pawn_2, B2);
-            SetLocation(White_Pawn_3, C2);
-            SetLocation(White_Pawn_4, D2);
-            SetLocation(White_Pawn_5, E2);
-            SetLocation(White_Pawn_6, F2);
-            SetLocation(White_Pawn_7, G2);
-            SetLocation(White_Pawn_8, H2);
+            SetPosition(White_Pawn_1, A2);
+            SetPosition(White_Pawn_2, B2);
+            SetPosition(White_Pawn_3, C2);
+            SetPosition(White_Pawn_4, D2);
+            SetPosition(White_Pawn_5, E2);
+            SetPosition(White_Pawn_6, F2);
+            SetPosition(White_Pawn_7, G2);
+            SetPosition(White_Pawn_8, H2);
         }
 
         private void Change()
@@ -239,6 +259,15 @@ namespace NinjaBoard
             return result;
         }
 
+        private Coin GetCoin(Button button)
+        {
+            var result = Model.Coin.Black_King;
+
+            result = (Coin)Enum.Parse(typeof(Coin), button.Name);
+
+            return result;
+        }
+
         private Panel GetPosition(Position position)
         {
             Panel result = null;
@@ -256,6 +285,15 @@ namespace NinjaBoard
                     }
                 }
             }
+
+            return result;
+        }
+
+        private Position GetPosition(Panel panel)
+        {
+            var result = Position.Dead;
+
+            result = (Position)Enum.Parse(typeof(Position), panel.Name);
 
             return result;
         }

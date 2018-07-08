@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using NinjaBoard.Database.Repositories;
+using NinjaBoard.Events;
 using NinjaBoard.Model;
 
 namespace NinjaBoard.Business.Services
@@ -9,9 +10,13 @@ namespace NinjaBoard.Business.Services
     {
         private IRepository Repository { get; }
 
-        public Server(IRepository repository)
+        public IEventRepository EventRepository { get; }
+
+        public Server(IRepository repository, IEventRepository eventRepository)
         {
             Repository = repository ?? throw new ArgumentNullException(nameof(repository));
+
+            EventRepository = eventRepository ?? throw new ArgumentNullException(nameof(eventRepository));
         }
 
         public List<Guid> GetGames()
@@ -23,9 +28,18 @@ namespace NinjaBoard.Business.Services
             return result;
         }
 
-        public Dictionary<Coin, Position> GetGameById(Guid id)
+        public Dictionary<Coin, Position> GetGameById(Guid gameId)
         {
-            return new Dictionary<Coin, Position>(Repository.GetPositions(id));
+            return new Dictionary<Coin, Position>(Repository.GetPositions(gameId));
+        }
+
+        public List<Event> GetEvents(Guid gameId)
+        {
+            var result = new List<Event>();
+
+            result.AddRange(EventRepository.GetEvents(gameId));
+
+            return result;
         }
 
         public Guid CreateGame()
@@ -70,23 +84,59 @@ namespace NinjaBoard.Business.Services
             Repository.CreatePosition(result, Coin.White_Pawn_2, Position.G2);
             Repository.CreatePosition(result, Coin.White_Pawn_1, Position.H2);
 
-            return result;
-        }
-
-        public bool UpdateGame(Guid game, Coin coin, Position position)
-        {
-            var result = false;
-
-            result = Repository.SetPosition(game, coin, position);
+            EventRepository.SendEvent(result, new GameStartedEvent()
+            {
+                GameId = result,
+                Timestamp = DateTime.Now
+            });
 
             return result;
         }
 
-        public bool DeleteGame(Guid id)
+        public bool Move(Guid gameId, Player player, Coin coin, Position source, Position destination)
         {
             var result = false;
 
-            result = Repository.DeleteGame(id) && Repository.DeletePositions(id);
+            result = Repository.SetPosition(gameId, coin, destination);
+
+            EventRepository.SendEvent(gameId, new CoinMovedEvent()
+            {
+                GameId = gameId,
+                Timestamp = DateTime.Now,
+                Player = player,
+                Coin = coin,
+                Source = Position.Dead,
+                Destination = destination
+            });
+
+            return result;
+        }
+
+        public bool Replace(Guid gameId, Player player, Coin coin, Coin target, Position source, Position destination)
+        {
+            var result = false;
+
+            result = Repository.SetPosition(gameId, coin, destination);
+
+            EventRepository.SendEvent(gameId, new CoinReplacedEvent()
+            {
+                GameId = gameId,
+                Timestamp = DateTime.Now,
+                Player = player,
+                Coin = coin,
+                Target = target,
+                Source = source,
+                Destination = destination
+            });
+
+            return result;
+        }
+
+        public bool DeleteGame(Guid gameId)
+        {
+            var result = false;
+
+            result = Repository.DeleteGame(gameId) && Repository.DeletePositions(gameId);
 
             return result;
         }

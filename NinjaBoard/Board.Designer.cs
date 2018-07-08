@@ -163,7 +163,6 @@
             this.gameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiNewGame = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiReplayGame = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiReplayGameBackwards = new System.Windows.Forms.ToolStripMenuItem();
             this.A7 = new System.Windows.Forms.Panel();
             this.A8 = new System.Windows.Forms.Panel();
             this.tlpMain.SuspendLayout();
@@ -216,7 +215,7 @@
             this.tlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 22F));
             this.tlpMain.Controls.Add(this.H1, 8, 9);
             this.tlpMain.Controls.Add(this.G1, 7, 9);
             this.tlpMain.Controls.Add(this.F1, 6, 9);
@@ -337,10 +336,10 @@
             // H1
             // 
             this.H1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H1.Location = new System.Drawing.Point(582, 454);
+            this.H1.Location = new System.Drawing.Point(575, 454);
             this.H1.Margin = new System.Windows.Forms.Padding(0);
             this.H1.Name = "H1";
-            this.H1.Size = new System.Drawing.Size(79, 57);
+            this.H1.Size = new System.Drawing.Size(78, 57);
             this.H1.TabIndex = 53;
             this.H1.Click += new System.EventHandler(this.OnLocationClicked);
             this.H1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -348,10 +347,10 @@
             // G1
             // 
             this.G1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G1.Location = new System.Drawing.Point(502, 454);
+            this.G1.Location = new System.Drawing.Point(496, 454);
             this.G1.Margin = new System.Windows.Forms.Padding(0);
             this.G1.Name = "G1";
-            this.G1.Size = new System.Drawing.Size(79, 57);
+            this.G1.Size = new System.Drawing.Size(78, 57);
             this.G1.TabIndex = 53;
             this.G1.Click += new System.EventHandler(this.OnLocationClicked);
             this.G1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -359,10 +358,10 @@
             // F1
             // 
             this.F1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F1.Location = new System.Drawing.Point(422, 454);
+            this.F1.Location = new System.Drawing.Point(417, 454);
             this.F1.Margin = new System.Windows.Forms.Padding(0);
             this.F1.Name = "F1";
-            this.F1.Size = new System.Drawing.Size(79, 57);
+            this.F1.Size = new System.Drawing.Size(78, 57);
             this.F1.TabIndex = 53;
             this.F1.Click += new System.EventHandler(this.OnLocationClicked);
             this.F1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -370,10 +369,10 @@
             // E1
             // 
             this.E1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E1.Location = new System.Drawing.Point(342, 454);
+            this.E1.Location = new System.Drawing.Point(338, 454);
             this.E1.Margin = new System.Windows.Forms.Padding(0);
             this.E1.Name = "E1";
-            this.E1.Size = new System.Drawing.Size(79, 57);
+            this.E1.Size = new System.Drawing.Size(78, 57);
             this.E1.TabIndex = 53;
             this.E1.Click += new System.EventHandler(this.OnLocationClicked);
             this.E1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -381,10 +380,10 @@
             // D1
             // 
             this.D1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D1.Location = new System.Drawing.Point(262, 454);
+            this.D1.Location = new System.Drawing.Point(259, 454);
             this.D1.Margin = new System.Windows.Forms.Padding(0);
             this.D1.Name = "D1";
-            this.D1.Size = new System.Drawing.Size(79, 57);
+            this.D1.Size = new System.Drawing.Size(78, 57);
             this.D1.TabIndex = 53;
             this.D1.Click += new System.EventHandler(this.OnLocationClicked);
             this.D1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -392,10 +391,10 @@
             // C1
             // 
             this.C1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C1.Location = new System.Drawing.Point(182, 454);
+            this.C1.Location = new System.Drawing.Point(180, 454);
             this.C1.Margin = new System.Windows.Forms.Padding(0);
             this.C1.Name = "C1";
-            this.C1.Size = new System.Drawing.Size(79, 57);
+            this.C1.Size = new System.Drawing.Size(78, 57);
             this.C1.TabIndex = 53;
             this.C1.Click += new System.EventHandler(this.OnLocationClicked);
             this.C1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -403,10 +402,10 @@
             // B1
             // 
             this.B1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B1.Location = new System.Drawing.Point(102, 454);
+            this.B1.Location = new System.Drawing.Point(101, 454);
             this.B1.Margin = new System.Windows.Forms.Padding(0);
             this.B1.Name = "B1";
-            this.B1.Size = new System.Drawing.Size(79, 57);
+            this.B1.Size = new System.Drawing.Size(78, 57);
             this.B1.TabIndex = 53;
             this.B1.Click += new System.EventHandler(this.OnLocationClicked);
             this.B1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -417,7 +416,7 @@
             this.A1.Location = new System.Drawing.Point(22, 454);
             this.A1.Margin = new System.Windows.Forms.Padding(0);
             this.A1.Name = "A1";
-            this.A1.Size = new System.Drawing.Size(79, 57);
+            this.A1.Size = new System.Drawing.Size(78, 57);
             this.A1.TabIndex = 53;
             this.A1.Click += new System.EventHandler(this.OnLocationClicked);
             this.A1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -425,10 +424,10 @@
             // H8
             // 
             this.H8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H8.Location = new System.Drawing.Point(582, 48);
+            this.H8.Location = new System.Drawing.Point(575, 48);
             this.H8.Margin = new System.Windows.Forms.Padding(0);
             this.H8.Name = "H8";
-            this.H8.Size = new System.Drawing.Size(79, 57);
+            this.H8.Size = new System.Drawing.Size(78, 57);
             this.H8.TabIndex = 53;
             this.H8.Click += new System.EventHandler(this.OnLocationClicked);
             this.H8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -436,10 +435,10 @@
             // G8
             // 
             this.G8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G8.Location = new System.Drawing.Point(502, 48);
+            this.G8.Location = new System.Drawing.Point(496, 48);
             this.G8.Margin = new System.Windows.Forms.Padding(0);
             this.G8.Name = "G8";
-            this.G8.Size = new System.Drawing.Size(79, 57);
+            this.G8.Size = new System.Drawing.Size(78, 57);
             this.G8.TabIndex = 53;
             this.G8.Click += new System.EventHandler(this.OnLocationClicked);
             this.G8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -447,10 +446,10 @@
             // F8
             // 
             this.F8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F8.Location = new System.Drawing.Point(422, 48);
+            this.F8.Location = new System.Drawing.Point(417, 48);
             this.F8.Margin = new System.Windows.Forms.Padding(0);
             this.F8.Name = "F8";
-            this.F8.Size = new System.Drawing.Size(79, 57);
+            this.F8.Size = new System.Drawing.Size(78, 57);
             this.F8.TabIndex = 53;
             this.F8.Click += new System.EventHandler(this.OnLocationClicked);
             this.F8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -458,10 +457,10 @@
             // E8
             // 
             this.E8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E8.Location = new System.Drawing.Point(342, 48);
+            this.E8.Location = new System.Drawing.Point(338, 48);
             this.E8.Margin = new System.Windows.Forms.Padding(0);
             this.E8.Name = "E8";
-            this.E8.Size = new System.Drawing.Size(79, 57);
+            this.E8.Size = new System.Drawing.Size(78, 57);
             this.E8.TabIndex = 53;
             this.E8.Click += new System.EventHandler(this.OnLocationClicked);
             this.E8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -469,10 +468,10 @@
             // D8
             // 
             this.D8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D8.Location = new System.Drawing.Point(262, 48);
+            this.D8.Location = new System.Drawing.Point(259, 48);
             this.D8.Margin = new System.Windows.Forms.Padding(0);
             this.D8.Name = "D8";
-            this.D8.Size = new System.Drawing.Size(79, 57);
+            this.D8.Size = new System.Drawing.Size(78, 57);
             this.D8.TabIndex = 53;
             this.D8.Click += new System.EventHandler(this.OnLocationClicked);
             this.D8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -480,10 +479,10 @@
             // C8
             // 
             this.C8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C8.Location = new System.Drawing.Point(182, 48);
+            this.C8.Location = new System.Drawing.Point(180, 48);
             this.C8.Margin = new System.Windows.Forms.Padding(0);
             this.C8.Name = "C8";
-            this.C8.Size = new System.Drawing.Size(79, 57);
+            this.C8.Size = new System.Drawing.Size(78, 57);
             this.C8.TabIndex = 53;
             this.C8.Click += new System.EventHandler(this.OnLocationClicked);
             this.C8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -491,10 +490,10 @@
             // B8
             // 
             this.B8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B8.Location = new System.Drawing.Point(102, 48);
+            this.B8.Location = new System.Drawing.Point(101, 48);
             this.B8.Margin = new System.Windows.Forms.Padding(0);
             this.B8.Name = "B8";
-            this.B8.Size = new System.Drawing.Size(79, 57);
+            this.B8.Size = new System.Drawing.Size(78, 57);
             this.B8.TabIndex = 53;
             this.B8.Click += new System.EventHandler(this.OnLocationClicked);
             this.B8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -502,10 +501,10 @@
             // H2
             // 
             this.H2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H2.Location = new System.Drawing.Point(582, 396);
+            this.H2.Location = new System.Drawing.Point(575, 396);
             this.H2.Margin = new System.Windows.Forms.Padding(0);
             this.H2.Name = "H2";
-            this.H2.Size = new System.Drawing.Size(79, 57);
+            this.H2.Size = new System.Drawing.Size(78, 57);
             this.H2.TabIndex = 51;
             this.H2.Click += new System.EventHandler(this.OnLocationClicked);
             this.H2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -514,10 +513,10 @@
             // 
             this.H3.Controls.Add(this.White_Rook_2);
             this.H3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H3.Location = new System.Drawing.Point(582, 338);
+            this.H3.Location = new System.Drawing.Point(575, 338);
             this.H3.Margin = new System.Windows.Forms.Padding(0);
             this.H3.Name = "H3";
-            this.H3.Size = new System.Drawing.Size(79, 57);
+            this.H3.Size = new System.Drawing.Size(78, 57);
             this.H3.TabIndex = 51;
             this.H3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -531,7 +530,7 @@
             this.White_Rook_2.Location = new System.Drawing.Point(0, 0);
             this.White_Rook_2.Margin = new System.Windows.Forms.Padding(0);
             this.White_Rook_2.Name = "White_Rook_2";
-            this.White_Rook_2.Size = new System.Drawing.Size(79, 57);
+            this.White_Rook_2.Size = new System.Drawing.Size(78, 57);
             this.White_Rook_2.TabIndex = 43;
             this.White_Rook_2.Tag = "White";
             this.White_Rook_2.UseVisualStyleBackColor = false;
@@ -541,10 +540,10 @@
             // 
             this.H4.Controls.Add(this.White_Pawn_8);
             this.H4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H4.Location = new System.Drawing.Point(582, 280);
+            this.H4.Location = new System.Drawing.Point(575, 280);
             this.H4.Margin = new System.Windows.Forms.Padding(0);
             this.H4.Name = "H4";
-            this.H4.Size = new System.Drawing.Size(79, 57);
+            this.H4.Size = new System.Drawing.Size(78, 57);
             this.H4.TabIndex = 51;
             this.H4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -559,7 +558,7 @@
             this.White_Pawn_8.Location = new System.Drawing.Point(0, 0);
             this.White_Pawn_8.Margin = new System.Windows.Forms.Padding(0);
             this.White_Pawn_8.Name = "White_Pawn_8";
-            this.White_Pawn_8.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_8.Size = new System.Drawing.Size(78, 57);
             this.White_Pawn_8.TabIndex = 40;
             this.White_Pawn_8.Tag = "White";
             this.White_Pawn_8.UseVisualStyleBackColor = false;
@@ -569,10 +568,10 @@
             // 
             this.H5.Controls.Add(this.Black_Pawn_8);
             this.H5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H5.Location = new System.Drawing.Point(582, 222);
+            this.H5.Location = new System.Drawing.Point(575, 222);
             this.H5.Margin = new System.Windows.Forms.Padding(0);
             this.H5.Name = "H5";
-            this.H5.Size = new System.Drawing.Size(79, 57);
+            this.H5.Size = new System.Drawing.Size(78, 57);
             this.H5.TabIndex = 51;
             this.H5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -587,7 +586,7 @@
             this.Black_Pawn_8.Location = new System.Drawing.Point(0, 0);
             this.Black_Pawn_8.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Pawn_8.Name = "Black_Pawn_8";
-            this.Black_Pawn_8.Size = new System.Drawing.Size(79, 57);
+            this.Black_Pawn_8.Size = new System.Drawing.Size(78, 57);
             this.Black_Pawn_8.TabIndex = 7;
             this.Black_Pawn_8.Tag = "Black";
             this.Black_Pawn_8.UseVisualStyleBackColor = false;
@@ -597,10 +596,10 @@
             // 
             this.H6.Controls.Add(this.Black_Rook_2);
             this.H6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H6.Location = new System.Drawing.Point(582, 164);
+            this.H6.Location = new System.Drawing.Point(575, 164);
             this.H6.Margin = new System.Windows.Forms.Padding(0);
             this.H6.Name = "H6";
-            this.H6.Size = new System.Drawing.Size(79, 57);
+            this.H6.Size = new System.Drawing.Size(78, 57);
             this.H6.TabIndex = 51;
             this.H6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -616,7 +615,7 @@
             this.Black_Rook_2.Location = new System.Drawing.Point(0, 0);
             this.Black_Rook_2.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Rook_2.Name = "Black_Rook_2";
-            this.Black_Rook_2.Size = new System.Drawing.Size(79, 57);
+            this.Black_Rook_2.Size = new System.Drawing.Size(78, 57);
             this.Black_Rook_2.TabIndex = 41;
             this.Black_Rook_2.Tag = "Black";
             this.Black_Rook_2.UseVisualStyleBackColor = false;
@@ -625,10 +624,10 @@
             // G2
             // 
             this.G2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G2.Location = new System.Drawing.Point(502, 396);
+            this.G2.Location = new System.Drawing.Point(496, 396);
             this.G2.Margin = new System.Windows.Forms.Padding(0);
             this.G2.Name = "G2";
-            this.G2.Size = new System.Drawing.Size(79, 57);
+            this.G2.Size = new System.Drawing.Size(78, 57);
             this.G2.TabIndex = 51;
             this.G2.Click += new System.EventHandler(this.OnLocationClicked);
             this.G2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -637,10 +636,10 @@
             // 
             this.G3.Controls.Add(this.White_Knight_2);
             this.G3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G3.Location = new System.Drawing.Point(502, 338);
+            this.G3.Location = new System.Drawing.Point(496, 338);
             this.G3.Margin = new System.Windows.Forms.Padding(0);
             this.G3.Name = "G3";
-            this.G3.Size = new System.Drawing.Size(79, 57);
+            this.G3.Size = new System.Drawing.Size(78, 57);
             this.G3.TabIndex = 51;
             this.G3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -654,7 +653,7 @@
             this.White_Knight_2.Location = new System.Drawing.Point(0, 0);
             this.White_Knight_2.Margin = new System.Windows.Forms.Padding(0);
             this.White_Knight_2.Name = "White_Knight_2";
-            this.White_Knight_2.Size = new System.Drawing.Size(79, 57);
+            this.White_Knight_2.Size = new System.Drawing.Size(78, 57);
             this.White_Knight_2.TabIndex = 46;
             this.White_Knight_2.Tag = "White";
             this.White_Knight_2.UseVisualStyleBackColor = false;
@@ -664,10 +663,10 @@
             // 
             this.G4.Controls.Add(this.White_Pawn_7);
             this.G4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G4.Location = new System.Drawing.Point(502, 280);
+            this.G4.Location = new System.Drawing.Point(496, 280);
             this.G4.Margin = new System.Windows.Forms.Padding(0);
             this.G4.Name = "G4";
-            this.G4.Size = new System.Drawing.Size(79, 57);
+            this.G4.Size = new System.Drawing.Size(78, 57);
             this.G4.TabIndex = 51;
             this.G4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -682,7 +681,7 @@
             this.White_Pawn_7.Location = new System.Drawing.Point(0, 0);
             this.White_Pawn_7.Margin = new System.Windows.Forms.Padding(0);
             this.White_Pawn_7.Name = "White_Pawn_7";
-            this.White_Pawn_7.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_7.Size = new System.Drawing.Size(78, 57);
             this.White_Pawn_7.TabIndex = 39;
             this.White_Pawn_7.Tag = "White";
             this.White_Pawn_7.UseVisualStyleBackColor = false;
@@ -692,10 +691,10 @@
             // 
             this.G5.Controls.Add(this.Black_Pawn_7);
             this.G5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G5.Location = new System.Drawing.Point(502, 222);
+            this.G5.Location = new System.Drawing.Point(496, 222);
             this.G5.Margin = new System.Windows.Forms.Padding(0);
             this.G5.Name = "G5";
-            this.G5.Size = new System.Drawing.Size(79, 57);
+            this.G5.Size = new System.Drawing.Size(78, 57);
             this.G5.TabIndex = 51;
             this.G5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -710,7 +709,7 @@
             this.Black_Pawn_7.Location = new System.Drawing.Point(0, 0);
             this.Black_Pawn_7.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Pawn_7.Name = "Black_Pawn_7";
-            this.Black_Pawn_7.Size = new System.Drawing.Size(79, 57);
+            this.Black_Pawn_7.Size = new System.Drawing.Size(78, 57);
             this.Black_Pawn_7.TabIndex = 6;
             this.Black_Pawn_7.Tag = "Black";
             this.Black_Pawn_7.UseVisualStyleBackColor = false;
@@ -720,10 +719,10 @@
             // 
             this.G6.Controls.Add(this.Black_Knight_2);
             this.G6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G6.Location = new System.Drawing.Point(502, 164);
+            this.G6.Location = new System.Drawing.Point(496, 164);
             this.G6.Margin = new System.Windows.Forms.Padding(0);
             this.G6.Name = "G6";
-            this.G6.Size = new System.Drawing.Size(79, 57);
+            this.G6.Size = new System.Drawing.Size(78, 57);
             this.G6.TabIndex = 51;
             this.G6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -738,7 +737,7 @@
             this.Black_Knight_2.Location = new System.Drawing.Point(0, 0);
             this.Black_Knight_2.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Knight_2.Name = "Black_Knight_2";
-            this.Black_Knight_2.Size = new System.Drawing.Size(79, 57);
+            this.Black_Knight_2.Size = new System.Drawing.Size(78, 57);
             this.Black_Knight_2.TabIndex = 40;
             this.Black_Knight_2.Tag = "Black";
             this.Black_Knight_2.UseVisualStyleBackColor = false;
@@ -747,10 +746,10 @@
             // F2
             // 
             this.F2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F2.Location = new System.Drawing.Point(422, 396);
+            this.F2.Location = new System.Drawing.Point(417, 396);
             this.F2.Margin = new System.Windows.Forms.Padding(0);
             this.F2.Name = "F2";
-            this.F2.Size = new System.Drawing.Size(79, 57);
+            this.F2.Size = new System.Drawing.Size(78, 57);
             this.F2.TabIndex = 51;
             this.F2.Click += new System.EventHandler(this.OnLocationClicked);
             this.F2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -759,10 +758,10 @@
             // 
             this.F3.Controls.Add(this.White_Bishop_2);
             this.F3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F3.Location = new System.Drawing.Point(422, 338);
+            this.F3.Location = new System.Drawing.Point(417, 338);
             this.F3.Margin = new System.Windows.Forms.Padding(0);
             this.F3.Name = "F3";
-            this.F3.Size = new System.Drawing.Size(79, 57);
+            this.F3.Size = new System.Drawing.Size(78, 57);
             this.F3.TabIndex = 51;
             this.F3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -776,7 +775,7 @@
             this.White_Bishop_2.Location = new System.Drawing.Point(0, 0);
             this.White_Bishop_2.Margin = new System.Windows.Forms.Padding(0);
             this.White_Bishop_2.Name = "White_Bishop_2";
-            this.White_Bishop_2.Size = new System.Drawing.Size(79, 57);
+            this.White_Bishop_2.Size = new System.Drawing.Size(78, 57);
             this.White_Bishop_2.TabIndex = 47;
             this.White_Bishop_2.Tag = "White";
             this.White_Bishop_2.UseVisualStyleBackColor = false;
@@ -786,10 +785,10 @@
             // 
             this.F4.Controls.Add(this.White_Pawn_6);
             this.F4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F4.Location = new System.Drawing.Point(422, 280);
+            this.F4.Location = new System.Drawing.Point(417, 280);
             this.F4.Margin = new System.Windows.Forms.Padding(0);
             this.F4.Name = "F4";
-            this.F4.Size = new System.Drawing.Size(79, 57);
+            this.F4.Size = new System.Drawing.Size(78, 57);
             this.F4.TabIndex = 51;
             this.F4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -804,7 +803,7 @@
             this.White_Pawn_6.Location = new System.Drawing.Point(0, 0);
             this.White_Pawn_6.Margin = new System.Windows.Forms.Padding(0);
             this.White_Pawn_6.Name = "White_Pawn_6";
-            this.White_Pawn_6.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_6.Size = new System.Drawing.Size(78, 57);
             this.White_Pawn_6.TabIndex = 38;
             this.White_Pawn_6.Tag = "White";
             this.White_Pawn_6.UseVisualStyleBackColor = false;
@@ -814,10 +813,10 @@
             // 
             this.F5.Controls.Add(this.Black_Pawn_6);
             this.F5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F5.Location = new System.Drawing.Point(422, 222);
+            this.F5.Location = new System.Drawing.Point(417, 222);
             this.F5.Margin = new System.Windows.Forms.Padding(0);
             this.F5.Name = "F5";
-            this.F5.Size = new System.Drawing.Size(79, 57);
+            this.F5.Size = new System.Drawing.Size(78, 57);
             this.F5.TabIndex = 51;
             this.F5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -832,7 +831,7 @@
             this.Black_Pawn_6.Location = new System.Drawing.Point(0, 0);
             this.Black_Pawn_6.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Pawn_6.Name = "Black_Pawn_6";
-            this.Black_Pawn_6.Size = new System.Drawing.Size(79, 57);
+            this.Black_Pawn_6.Size = new System.Drawing.Size(78, 57);
             this.Black_Pawn_6.TabIndex = 5;
             this.Black_Pawn_6.Tag = "Black";
             this.Black_Pawn_6.UseVisualStyleBackColor = false;
@@ -842,10 +841,10 @@
             // 
             this.F6.Controls.Add(this.Black_Bishop_2);
             this.F6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F6.Location = new System.Drawing.Point(422, 164);
+            this.F6.Location = new System.Drawing.Point(417, 164);
             this.F6.Margin = new System.Windows.Forms.Padding(0);
             this.F6.Name = "F6";
-            this.F6.Size = new System.Drawing.Size(79, 57);
+            this.F6.Size = new System.Drawing.Size(78, 57);
             this.F6.TabIndex = 51;
             this.F6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -860,7 +859,7 @@
             this.Black_Bishop_2.Location = new System.Drawing.Point(0, 0);
             this.Black_Bishop_2.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Bishop_2.Name = "Black_Bishop_2";
-            this.Black_Bishop_2.Size = new System.Drawing.Size(79, 57);
+            this.Black_Bishop_2.Size = new System.Drawing.Size(78, 57);
             this.Black_Bishop_2.TabIndex = 39;
             this.Black_Bishop_2.Tag = "Black";
             this.Black_Bishop_2.UseVisualStyleBackColor = false;
@@ -869,10 +868,10 @@
             // E2
             // 
             this.E2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E2.Location = new System.Drawing.Point(342, 396);
+            this.E2.Location = new System.Drawing.Point(338, 396);
             this.E2.Margin = new System.Windows.Forms.Padding(0);
             this.E2.Name = "E2";
-            this.E2.Size = new System.Drawing.Size(79, 57);
+            this.E2.Size = new System.Drawing.Size(78, 57);
             this.E2.TabIndex = 51;
             this.E2.Click += new System.EventHandler(this.OnLocationClicked);
             this.E2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -881,10 +880,10 @@
             // 
             this.E3.Controls.Add(this.White_Queen);
             this.E3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E3.Location = new System.Drawing.Point(342, 338);
+            this.E3.Location = new System.Drawing.Point(338, 338);
             this.E3.Margin = new System.Windows.Forms.Padding(0);
             this.E3.Name = "E3";
-            this.E3.Size = new System.Drawing.Size(79, 57);
+            this.E3.Size = new System.Drawing.Size(78, 57);
             this.E3.TabIndex = 51;
             this.E3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -898,7 +897,7 @@
             this.White_Queen.Location = new System.Drawing.Point(0, 0);
             this.White_Queen.Margin = new System.Windows.Forms.Padding(0);
             this.White_Queen.Name = "White_Queen";
-            this.White_Queen.Size = new System.Drawing.Size(79, 57);
+            this.White_Queen.Size = new System.Drawing.Size(78, 57);
             this.White_Queen.TabIndex = 48;
             this.White_Queen.Tag = "White";
             this.White_Queen.UseVisualStyleBackColor = false;
@@ -908,10 +907,10 @@
             // 
             this.E4.Controls.Add(this.White_Pawn_5);
             this.E4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E4.Location = new System.Drawing.Point(342, 280);
+            this.E4.Location = new System.Drawing.Point(338, 280);
             this.E4.Margin = new System.Windows.Forms.Padding(0);
             this.E4.Name = "E4";
-            this.E4.Size = new System.Drawing.Size(79, 57);
+            this.E4.Size = new System.Drawing.Size(78, 57);
             this.E4.TabIndex = 51;
             this.E4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -926,7 +925,7 @@
             this.White_Pawn_5.Location = new System.Drawing.Point(0, 0);
             this.White_Pawn_5.Margin = new System.Windows.Forms.Padding(0);
             this.White_Pawn_5.Name = "White_Pawn_5";
-            this.White_Pawn_5.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_5.Size = new System.Drawing.Size(78, 57);
             this.White_Pawn_5.TabIndex = 37;
             this.White_Pawn_5.Tag = "White";
             this.White_Pawn_5.UseVisualStyleBackColor = false;
@@ -936,10 +935,10 @@
             // 
             this.E5.Controls.Add(this.Black_Pawn_5);
             this.E5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E5.Location = new System.Drawing.Point(342, 222);
+            this.E5.Location = new System.Drawing.Point(338, 222);
             this.E5.Margin = new System.Windows.Forms.Padding(0);
             this.E5.Name = "E5";
-            this.E5.Size = new System.Drawing.Size(79, 57);
+            this.E5.Size = new System.Drawing.Size(78, 57);
             this.E5.TabIndex = 51;
             this.E5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -954,7 +953,7 @@
             this.Black_Pawn_5.Location = new System.Drawing.Point(0, 0);
             this.Black_Pawn_5.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Pawn_5.Name = "Black_Pawn_5";
-            this.Black_Pawn_5.Size = new System.Drawing.Size(79, 57);
+            this.Black_Pawn_5.Size = new System.Drawing.Size(78, 57);
             this.Black_Pawn_5.TabIndex = 4;
             this.Black_Pawn_5.Tag = "Black";
             this.Black_Pawn_5.UseVisualStyleBackColor = false;
@@ -964,10 +963,10 @@
             // 
             this.E6.Controls.Add(this.Black_King);
             this.E6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E6.Location = new System.Drawing.Point(342, 164);
+            this.E6.Location = new System.Drawing.Point(338, 164);
             this.E6.Margin = new System.Windows.Forms.Padding(0);
             this.E6.Name = "E6";
-            this.E6.Size = new System.Drawing.Size(79, 57);
+            this.E6.Size = new System.Drawing.Size(78, 57);
             this.E6.TabIndex = 51;
             this.E6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -982,7 +981,7 @@
             this.Black_King.Location = new System.Drawing.Point(0, 0);
             this.Black_King.Margin = new System.Windows.Forms.Padding(0);
             this.Black_King.Name = "Black_King";
-            this.Black_King.Size = new System.Drawing.Size(79, 57);
+            this.Black_King.Size = new System.Drawing.Size(78, 57);
             this.Black_King.TabIndex = 38;
             this.Black_King.Tag = "Black";
             this.Black_King.UseVisualStyleBackColor = false;
@@ -991,10 +990,10 @@
             // D2
             // 
             this.D2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D2.Location = new System.Drawing.Point(262, 396);
+            this.D2.Location = new System.Drawing.Point(259, 396);
             this.D2.Margin = new System.Windows.Forms.Padding(0);
             this.D2.Name = "D2";
-            this.D2.Size = new System.Drawing.Size(79, 57);
+            this.D2.Size = new System.Drawing.Size(78, 57);
             this.D2.TabIndex = 51;
             this.D2.Click += new System.EventHandler(this.OnLocationClicked);
             this.D2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -1003,10 +1002,10 @@
             // 
             this.D3.Controls.Add(this.White_King);
             this.D3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D3.Location = new System.Drawing.Point(262, 338);
+            this.D3.Location = new System.Drawing.Point(259, 338);
             this.D3.Margin = new System.Windows.Forms.Padding(0);
             this.D3.Name = "D3";
-            this.D3.Size = new System.Drawing.Size(79, 57);
+            this.D3.Size = new System.Drawing.Size(78, 57);
             this.D3.TabIndex = 51;
             this.D3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1020,7 +1019,7 @@
             this.White_King.Location = new System.Drawing.Point(0, 0);
             this.White_King.Margin = new System.Windows.Forms.Padding(0);
             this.White_King.Name = "White_King";
-            this.White_King.Size = new System.Drawing.Size(79, 57);
+            this.White_King.Size = new System.Drawing.Size(78, 57);
             this.White_King.TabIndex = 49;
             this.White_King.Tag = "White";
             this.White_King.UseVisualStyleBackColor = false;
@@ -1030,10 +1029,10 @@
             // 
             this.D4.Controls.Add(this.White_Pawn_4);
             this.D4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D4.Location = new System.Drawing.Point(262, 280);
+            this.D4.Location = new System.Drawing.Point(259, 280);
             this.D4.Margin = new System.Windows.Forms.Padding(0);
             this.D4.Name = "D4";
-            this.D4.Size = new System.Drawing.Size(79, 57);
+            this.D4.Size = new System.Drawing.Size(78, 57);
             this.D4.TabIndex = 51;
             this.D4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1048,7 +1047,7 @@
             this.White_Pawn_4.Location = new System.Drawing.Point(0, 0);
             this.White_Pawn_4.Margin = new System.Windows.Forms.Padding(0);
             this.White_Pawn_4.Name = "White_Pawn_4";
-            this.White_Pawn_4.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_4.Size = new System.Drawing.Size(78, 57);
             this.White_Pawn_4.TabIndex = 36;
             this.White_Pawn_4.Tag = "White";
             this.White_Pawn_4.UseVisualStyleBackColor = false;
@@ -1058,10 +1057,10 @@
             // 
             this.D5.Controls.Add(this.Black_Pawn_4);
             this.D5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D5.Location = new System.Drawing.Point(262, 222);
+            this.D5.Location = new System.Drawing.Point(259, 222);
             this.D5.Margin = new System.Windows.Forms.Padding(0);
             this.D5.Name = "D5";
-            this.D5.Size = new System.Drawing.Size(79, 57);
+            this.D5.Size = new System.Drawing.Size(78, 57);
             this.D5.TabIndex = 51;
             this.D5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1076,7 +1075,7 @@
             this.Black_Pawn_4.Location = new System.Drawing.Point(0, 0);
             this.Black_Pawn_4.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Pawn_4.Name = "Black_Pawn_4";
-            this.Black_Pawn_4.Size = new System.Drawing.Size(79, 57);
+            this.Black_Pawn_4.Size = new System.Drawing.Size(78, 57);
             this.Black_Pawn_4.TabIndex = 3;
             this.Black_Pawn_4.Tag = "Black";
             this.Black_Pawn_4.UseVisualStyleBackColor = false;
@@ -1086,10 +1085,10 @@
             // 
             this.D6.Controls.Add(this.Black_Queen);
             this.D6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D6.Location = new System.Drawing.Point(262, 164);
+            this.D6.Location = new System.Drawing.Point(259, 164);
             this.D6.Margin = new System.Windows.Forms.Padding(0);
             this.D6.Name = "D6";
-            this.D6.Size = new System.Drawing.Size(79, 57);
+            this.D6.Size = new System.Drawing.Size(78, 57);
             this.D6.TabIndex = 51;
             this.D6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1104,7 +1103,7 @@
             this.Black_Queen.Location = new System.Drawing.Point(0, 0);
             this.Black_Queen.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Queen.Name = "Black_Queen";
-            this.Black_Queen.Size = new System.Drawing.Size(79, 57);
+            this.Black_Queen.Size = new System.Drawing.Size(78, 57);
             this.Black_Queen.TabIndex = 37;
             this.Black_Queen.Tag = "Black";
             this.Black_Queen.UseVisualStyleBackColor = false;
@@ -1113,10 +1112,10 @@
             // C2
             // 
             this.C2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C2.Location = new System.Drawing.Point(182, 396);
+            this.C2.Location = new System.Drawing.Point(180, 396);
             this.C2.Margin = new System.Windows.Forms.Padding(0);
             this.C2.Name = "C2";
-            this.C2.Size = new System.Drawing.Size(79, 57);
+            this.C2.Size = new System.Drawing.Size(78, 57);
             this.C2.TabIndex = 51;
             this.C2.Click += new System.EventHandler(this.OnLocationClicked);
             this.C2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -1125,10 +1124,10 @@
             // 
             this.C3.Controls.Add(this.White_Bishop_1);
             this.C3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C3.Location = new System.Drawing.Point(182, 338);
+            this.C3.Location = new System.Drawing.Point(180, 338);
             this.C3.Margin = new System.Windows.Forms.Padding(0);
             this.C3.Name = "C3";
-            this.C3.Size = new System.Drawing.Size(79, 57);
+            this.C3.Size = new System.Drawing.Size(78, 57);
             this.C3.TabIndex = 51;
             this.C3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1142,7 +1141,7 @@
             this.White_Bishop_1.Location = new System.Drawing.Point(0, 0);
             this.White_Bishop_1.Margin = new System.Windows.Forms.Padding(0);
             this.White_Bishop_1.Name = "White_Bishop_1";
-            this.White_Bishop_1.Size = new System.Drawing.Size(79, 57);
+            this.White_Bishop_1.Size = new System.Drawing.Size(78, 57);
             this.White_Bishop_1.TabIndex = 44;
             this.White_Bishop_1.Tag = "White";
             this.White_Bishop_1.UseVisualStyleBackColor = false;
@@ -1152,10 +1151,10 @@
             // 
             this.C4.Controls.Add(this.White_Pawn_3);
             this.C4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C4.Location = new System.Drawing.Point(182, 280);
+            this.C4.Location = new System.Drawing.Point(180, 280);
             this.C4.Margin = new System.Windows.Forms.Padding(0);
             this.C4.Name = "C4";
-            this.C4.Size = new System.Drawing.Size(79, 57);
+            this.C4.Size = new System.Drawing.Size(78, 57);
             this.C4.TabIndex = 51;
             this.C4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1170,7 +1169,7 @@
             this.White_Pawn_3.Location = new System.Drawing.Point(0, 0);
             this.White_Pawn_3.Margin = new System.Windows.Forms.Padding(0);
             this.White_Pawn_3.Name = "White_Pawn_3";
-            this.White_Pawn_3.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_3.Size = new System.Drawing.Size(78, 57);
             this.White_Pawn_3.TabIndex = 35;
             this.White_Pawn_3.Tag = "White";
             this.White_Pawn_3.UseVisualStyleBackColor = false;
@@ -1180,10 +1179,10 @@
             // 
             this.C5.Controls.Add(this.Black_Pawn_3);
             this.C5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C5.Location = new System.Drawing.Point(182, 222);
+            this.C5.Location = new System.Drawing.Point(180, 222);
             this.C5.Margin = new System.Windows.Forms.Padding(0);
             this.C5.Name = "C5";
-            this.C5.Size = new System.Drawing.Size(79, 57);
+            this.C5.Size = new System.Drawing.Size(78, 57);
             this.C5.TabIndex = 51;
             this.C5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1198,7 +1197,7 @@
             this.Black_Pawn_3.Location = new System.Drawing.Point(0, 0);
             this.Black_Pawn_3.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Pawn_3.Name = "Black_Pawn_3";
-            this.Black_Pawn_3.Size = new System.Drawing.Size(79, 57);
+            this.Black_Pawn_3.Size = new System.Drawing.Size(78, 57);
             this.Black_Pawn_3.TabIndex = 2;
             this.Black_Pawn_3.Tag = "Black";
             this.Black_Pawn_3.UseVisualStyleBackColor = false;
@@ -1208,10 +1207,10 @@
             // 
             this.C6.Controls.Add(this.Black_Bishop_1);
             this.C6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C6.Location = new System.Drawing.Point(182, 164);
+            this.C6.Location = new System.Drawing.Point(180, 164);
             this.C6.Margin = new System.Windows.Forms.Padding(0);
             this.C6.Name = "C6";
-            this.C6.Size = new System.Drawing.Size(79, 57);
+            this.C6.Size = new System.Drawing.Size(78, 57);
             this.C6.TabIndex = 51;
             this.C6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1226,7 +1225,7 @@
             this.Black_Bishop_1.Location = new System.Drawing.Point(0, 0);
             this.Black_Bishop_1.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Bishop_1.Name = "Black_Bishop_1";
-            this.Black_Bishop_1.Size = new System.Drawing.Size(79, 57);
+            this.Black_Bishop_1.Size = new System.Drawing.Size(78, 57);
             this.Black_Bishop_1.TabIndex = 36;
             this.Black_Bishop_1.Tag = "Black";
             this.Black_Bishop_1.UseVisualStyleBackColor = false;
@@ -1235,10 +1234,10 @@
             // B2
             // 
             this.B2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B2.Location = new System.Drawing.Point(102, 396);
+            this.B2.Location = new System.Drawing.Point(101, 396);
             this.B2.Margin = new System.Windows.Forms.Padding(0);
             this.B2.Name = "B2";
-            this.B2.Size = new System.Drawing.Size(79, 57);
+            this.B2.Size = new System.Drawing.Size(78, 57);
             this.B2.TabIndex = 51;
             this.B2.Click += new System.EventHandler(this.OnLocationClicked);
             this.B2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -1247,10 +1246,10 @@
             // 
             this.B3.Controls.Add(this.White_Knight_1);
             this.B3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B3.Location = new System.Drawing.Point(102, 338);
+            this.B3.Location = new System.Drawing.Point(101, 338);
             this.B3.Margin = new System.Windows.Forms.Padding(0);
             this.B3.Name = "B3";
-            this.B3.Size = new System.Drawing.Size(79, 57);
+            this.B3.Size = new System.Drawing.Size(78, 57);
             this.B3.TabIndex = 51;
             this.B3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1264,7 +1263,7 @@
             this.White_Knight_1.Location = new System.Drawing.Point(0, 0);
             this.White_Knight_1.Margin = new System.Windows.Forms.Padding(0);
             this.White_Knight_1.Name = "White_Knight_1";
-            this.White_Knight_1.Size = new System.Drawing.Size(79, 57);
+            this.White_Knight_1.Size = new System.Drawing.Size(78, 57);
             this.White_Knight_1.TabIndex = 42;
             this.White_Knight_1.Tag = "White";
             this.White_Knight_1.UseVisualStyleBackColor = false;
@@ -1274,10 +1273,10 @@
             // 
             this.B4.Controls.Add(this.White_Pawn_2);
             this.B4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B4.Location = new System.Drawing.Point(102, 280);
+            this.B4.Location = new System.Drawing.Point(101, 280);
             this.B4.Margin = new System.Windows.Forms.Padding(0);
             this.B4.Name = "B4";
-            this.B4.Size = new System.Drawing.Size(79, 57);
+            this.B4.Size = new System.Drawing.Size(78, 57);
             this.B4.TabIndex = 51;
             this.B4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1292,7 +1291,7 @@
             this.White_Pawn_2.Location = new System.Drawing.Point(0, 0);
             this.White_Pawn_2.Margin = new System.Windows.Forms.Padding(0);
             this.White_Pawn_2.Name = "White_Pawn_2";
-            this.White_Pawn_2.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_2.Size = new System.Drawing.Size(78, 57);
             this.White_Pawn_2.TabIndex = 34;
             this.White_Pawn_2.Tag = "White";
             this.White_Pawn_2.UseVisualStyleBackColor = false;
@@ -1302,10 +1301,10 @@
             // 
             this.B5.Controls.Add(this.Black_Pawn_2);
             this.B5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B5.Location = new System.Drawing.Point(102, 222);
+            this.B5.Location = new System.Drawing.Point(101, 222);
             this.B5.Margin = new System.Windows.Forms.Padding(0);
             this.B5.Name = "B5";
-            this.B5.Size = new System.Drawing.Size(79, 57);
+            this.B5.Size = new System.Drawing.Size(78, 57);
             this.B5.TabIndex = 51;
             this.B5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1320,7 +1319,7 @@
             this.Black_Pawn_2.Location = new System.Drawing.Point(0, 0);
             this.Black_Pawn_2.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Pawn_2.Name = "Black_Pawn_2";
-            this.Black_Pawn_2.Size = new System.Drawing.Size(79, 57);
+            this.Black_Pawn_2.Size = new System.Drawing.Size(78, 57);
             this.Black_Pawn_2.TabIndex = 1;
             this.Black_Pawn_2.Tag = "Black";
             this.Black_Pawn_2.UseVisualStyleBackColor = false;
@@ -1330,10 +1329,10 @@
             // 
             this.B6.Controls.Add(this.Black_Knight_1);
             this.B6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B6.Location = new System.Drawing.Point(102, 164);
+            this.B6.Location = new System.Drawing.Point(101, 164);
             this.B6.Margin = new System.Windows.Forms.Padding(0);
             this.B6.Name = "B6";
-            this.B6.Size = new System.Drawing.Size(79, 57);
+            this.B6.Size = new System.Drawing.Size(78, 57);
             this.B6.TabIndex = 51;
             this.B6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1348,7 +1347,7 @@
             this.Black_Knight_1.Location = new System.Drawing.Point(0, 0);
             this.Black_Knight_1.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Knight_1.Name = "Black_Knight_1";
-            this.Black_Knight_1.Size = new System.Drawing.Size(79, 57);
+            this.Black_Knight_1.Size = new System.Drawing.Size(78, 57);
             this.Black_Knight_1.TabIndex = 35;
             this.Black_Knight_1.Tag = "Black";
             this.Black_Knight_1.UseVisualStyleBackColor = false;
@@ -1360,7 +1359,7 @@
             this.A2.Location = new System.Drawing.Point(22, 396);
             this.A2.Margin = new System.Windows.Forms.Padding(0);
             this.A2.Name = "A2";
-            this.A2.Size = new System.Drawing.Size(79, 57);
+            this.A2.Size = new System.Drawing.Size(78, 57);
             this.A2.TabIndex = 51;
             this.A2.Click += new System.EventHandler(this.OnLocationClicked);
             this.A2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -1372,7 +1371,7 @@
             this.A3.Location = new System.Drawing.Point(22, 338);
             this.A3.Margin = new System.Windows.Forms.Padding(0);
             this.A3.Name = "A3";
-            this.A3.Size = new System.Drawing.Size(79, 57);
+            this.A3.Size = new System.Drawing.Size(78, 57);
             this.A3.TabIndex = 51;
             this.A3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1387,7 +1386,7 @@
             this.White_Rook_1.Location = new System.Drawing.Point(0, 0);
             this.White_Rook_1.Margin = new System.Windows.Forms.Padding(0);
             this.White_Rook_1.Name = "White_Rook_1";
-            this.White_Rook_1.Size = new System.Drawing.Size(79, 57);
+            this.White_Rook_1.Size = new System.Drawing.Size(78, 57);
             this.White_Rook_1.TabIndex = 32;
             this.White_Rook_1.UseVisualStyleBackColor = false;
             this.White_Rook_1.Click += new System.EventHandler(this.OnEntityClicked);
@@ -1399,7 +1398,7 @@
             this.A4.Location = new System.Drawing.Point(22, 280);
             this.A4.Margin = new System.Windows.Forms.Padding(0);
             this.A4.Name = "A4";
-            this.A4.Size = new System.Drawing.Size(79, 57);
+            this.A4.Size = new System.Drawing.Size(78, 57);
             this.A4.TabIndex = 51;
             this.A4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1414,7 +1413,7 @@
             this.White_Pawn_1.Location = new System.Drawing.Point(0, 0);
             this.White_Pawn_1.Margin = new System.Windows.Forms.Padding(0);
             this.White_Pawn_1.Name = "White_Pawn_1";
-            this.White_Pawn_1.Size = new System.Drawing.Size(79, 57);
+            this.White_Pawn_1.Size = new System.Drawing.Size(78, 57);
             this.White_Pawn_1.TabIndex = 33;
             this.White_Pawn_1.Tag = "White";
             this.White_Pawn_1.UseVisualStyleBackColor = false;
@@ -1427,7 +1426,7 @@
             this.A5.Location = new System.Drawing.Point(22, 222);
             this.A5.Margin = new System.Windows.Forms.Padding(0);
             this.A5.Name = "A5";
-            this.A5.Size = new System.Drawing.Size(79, 57);
+            this.A5.Size = new System.Drawing.Size(78, 57);
             this.A5.TabIndex = 51;
             this.A5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1442,7 +1441,7 @@
             this.Black_Pawn_1.Location = new System.Drawing.Point(0, 0);
             this.Black_Pawn_1.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Pawn_1.Name = "Black_Pawn_1";
-            this.Black_Pawn_1.Size = new System.Drawing.Size(79, 57);
+            this.Black_Pawn_1.Size = new System.Drawing.Size(78, 57);
             this.Black_Pawn_1.TabIndex = 0;
             this.Black_Pawn_1.Tag = "Black";
             this.Black_Pawn_1.UseVisualStyleBackColor = false;
@@ -1455,7 +1454,7 @@
             this.A6.Location = new System.Drawing.Point(22, 164);
             this.A6.Margin = new System.Windows.Forms.Padding(0);
             this.A6.Name = "A6";
-            this.A6.Size = new System.Drawing.Size(79, 57);
+            this.A6.Size = new System.Drawing.Size(78, 57);
             this.A6.TabIndex = 51;
             this.A6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
             // 
@@ -1470,7 +1469,7 @@
             this.Black_Rook_1.Location = new System.Drawing.Point(0, 0);
             this.Black_Rook_1.Margin = new System.Windows.Forms.Padding(0);
             this.Black_Rook_1.Name = "Black_Rook_1";
-            this.Black_Rook_1.Size = new System.Drawing.Size(79, 57);
+            this.Black_Rook_1.Size = new System.Drawing.Size(78, 57);
             this.Black_Rook_1.TabIndex = 1;
             this.Black_Rook_1.Tag = "Black";
             this.Black_Rook_1.UseVisualStyleBackColor = false;
@@ -1479,10 +1478,10 @@
             // H7
             // 
             this.H7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.H7.Location = new System.Drawing.Point(582, 106);
+            this.H7.Location = new System.Drawing.Point(575, 106);
             this.H7.Margin = new System.Windows.Forms.Padding(0);
             this.H7.Name = "H7";
-            this.H7.Size = new System.Drawing.Size(79, 57);
+            this.H7.Size = new System.Drawing.Size(78, 57);
             this.H7.TabIndex = 51;
             this.H7.Click += new System.EventHandler(this.OnLocationClicked);
             this.H7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -1490,10 +1489,10 @@
             // G7
             // 
             this.G7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.G7.Location = new System.Drawing.Point(502, 106);
+            this.G7.Location = new System.Drawing.Point(496, 106);
             this.G7.Margin = new System.Windows.Forms.Padding(0);
             this.G7.Name = "G7";
-            this.G7.Size = new System.Drawing.Size(79, 57);
+            this.G7.Size = new System.Drawing.Size(78, 57);
             this.G7.TabIndex = 51;
             this.G7.Click += new System.EventHandler(this.OnLocationClicked);
             this.G7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -1501,10 +1500,10 @@
             // F7
             // 
             this.F7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.F7.Location = new System.Drawing.Point(422, 106);
+            this.F7.Location = new System.Drawing.Point(417, 106);
             this.F7.Margin = new System.Windows.Forms.Padding(0);
             this.F7.Name = "F7";
-            this.F7.Size = new System.Drawing.Size(79, 57);
+            this.F7.Size = new System.Drawing.Size(78, 57);
             this.F7.TabIndex = 51;
             this.F7.Click += new System.EventHandler(this.OnLocationClicked);
             this.F7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -1512,10 +1511,10 @@
             // E7
             // 
             this.E7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.E7.Location = new System.Drawing.Point(342, 106);
+            this.E7.Location = new System.Drawing.Point(338, 106);
             this.E7.Margin = new System.Windows.Forms.Padding(0);
             this.E7.Name = "E7";
-            this.E7.Size = new System.Drawing.Size(79, 57);
+            this.E7.Size = new System.Drawing.Size(78, 57);
             this.E7.TabIndex = 51;
             this.E7.Click += new System.EventHandler(this.OnLocationClicked);
             this.E7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -1523,10 +1522,10 @@
             // C7
             // 
             this.C7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.C7.Location = new System.Drawing.Point(182, 106);
+            this.C7.Location = new System.Drawing.Point(180, 106);
             this.C7.Margin = new System.Windows.Forms.Padding(0);
             this.C7.Name = "C7";
-            this.C7.Size = new System.Drawing.Size(79, 57);
+            this.C7.Size = new System.Drawing.Size(78, 57);
             this.C7.TabIndex = 51;
             this.C7.Click += new System.EventHandler(this.OnLocationClicked);
             this.C7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -1534,10 +1533,10 @@
             // D7
             // 
             this.D7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.D7.Location = new System.Drawing.Point(262, 106);
+            this.D7.Location = new System.Drawing.Point(259, 106);
             this.D7.Margin = new System.Windows.Forms.Padding(0);
             this.D7.Name = "D7";
-            this.D7.Size = new System.Drawing.Size(79, 57);
+            this.D7.Size = new System.Drawing.Size(78, 57);
             this.D7.TabIndex = 51;
             this.D7.Click += new System.EventHandler(this.OnLocationClicked);
             this.D7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -1545,10 +1544,10 @@
             // B7
             // 
             this.B7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.B7.Location = new System.Drawing.Point(102, 106);
+            this.B7.Location = new System.Drawing.Point(101, 106);
             this.B7.Margin = new System.Windows.Forms.Padding(0);
             this.B7.Name = "B7";
-            this.B7.Size = new System.Drawing.Size(79, 57);
+            this.B7.Size = new System.Drawing.Size(78, 57);
             this.B7.TabIndex = 51;
             this.B7.Click += new System.EventHandler(this.OnLocationClicked);
             this.B7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -1559,10 +1558,10 @@
             this.lblTopE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblTopE.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopE.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTopE.Location = new System.Drawing.Point(342, 27);
+            this.lblTopE.Location = new System.Drawing.Point(338, 27);
             this.lblTopE.Margin = new System.Windows.Forms.Padding(0);
             this.lblTopE.Name = "lblTopE";
-            this.lblTopE.Size = new System.Drawing.Size(79, 20);
+            this.lblTopE.Size = new System.Drawing.Size(78, 20);
             this.lblTopE.TabIndex = 13;
             this.lblTopE.Text = "E";
             this.lblTopE.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1685,10 +1684,10 @@
             this.lblTopB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblTopB.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTopB.Location = new System.Drawing.Point(102, 27);
+            this.lblTopB.Location = new System.Drawing.Point(101, 27);
             this.lblTopB.Margin = new System.Windows.Forms.Padding(0);
             this.lblTopB.Name = "lblTopB";
-            this.lblTopB.Size = new System.Drawing.Size(79, 20);
+            this.lblTopB.Size = new System.Drawing.Size(78, 20);
             this.lblTopB.TabIndex = 9;
             this.lblTopB.Text = "B";
             this.lblTopB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1699,10 +1698,10 @@
             this.lblTopC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblTopC.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTopC.Location = new System.Drawing.Point(182, 27);
+            this.lblTopC.Location = new System.Drawing.Point(180, 27);
             this.lblTopC.Margin = new System.Windows.Forms.Padding(0);
             this.lblTopC.Name = "lblTopC";
-            this.lblTopC.Size = new System.Drawing.Size(79, 20);
+            this.lblTopC.Size = new System.Drawing.Size(78, 20);
             this.lblTopC.TabIndex = 10;
             this.lblTopC.Text = "C";
             this.lblTopC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1713,10 +1712,10 @@
             this.lblTopD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblTopD.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopD.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTopD.Location = new System.Drawing.Point(262, 27);
+            this.lblTopD.Location = new System.Drawing.Point(259, 27);
             this.lblTopD.Margin = new System.Windows.Forms.Padding(0);
             this.lblTopD.Name = "lblTopD";
-            this.lblTopD.Size = new System.Drawing.Size(79, 20);
+            this.lblTopD.Size = new System.Drawing.Size(78, 20);
             this.lblTopD.TabIndex = 11;
             this.lblTopD.Text = "D";
             this.lblTopD.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1730,7 +1729,7 @@
             this.lblTopA.Location = new System.Drawing.Point(22, 27);
             this.lblTopA.Margin = new System.Windows.Forms.Padding(0);
             this.lblTopA.Name = "lblTopA";
-            this.lblTopA.Size = new System.Drawing.Size(79, 20);
+            this.lblTopA.Size = new System.Drawing.Size(78, 20);
             this.lblTopA.TabIndex = 12;
             this.lblTopA.Text = "A";
             this.lblTopA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1741,10 +1740,10 @@
             this.lblTopF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblTopF.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopF.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTopF.Location = new System.Drawing.Point(422, 27);
+            this.lblTopF.Location = new System.Drawing.Point(417, 27);
             this.lblTopF.Margin = new System.Windows.Forms.Padding(0);
             this.lblTopF.Name = "lblTopF";
-            this.lblTopF.Size = new System.Drawing.Size(79, 20);
+            this.lblTopF.Size = new System.Drawing.Size(78, 20);
             this.lblTopF.TabIndex = 12;
             this.lblTopF.Text = "F";
             this.lblTopF.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1755,10 +1754,10 @@
             this.lblTopG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblTopG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopG.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTopG.Location = new System.Drawing.Point(502, 27);
+            this.lblTopG.Location = new System.Drawing.Point(496, 27);
             this.lblTopG.Margin = new System.Windows.Forms.Padding(0);
             this.lblTopG.Name = "lblTopG";
-            this.lblTopG.Size = new System.Drawing.Size(79, 20);
+            this.lblTopG.Size = new System.Drawing.Size(78, 20);
             this.lblTopG.TabIndex = 14;
             this.lblTopG.Text = "G";
             this.lblTopG.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1769,10 +1768,10 @@
             this.lblTopH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblTopH.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopH.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTopH.Location = new System.Drawing.Point(582, 27);
+            this.lblTopH.Location = new System.Drawing.Point(575, 27);
             this.lblTopH.Margin = new System.Windows.Forms.Padding(0);
             this.lblTopH.Name = "lblTopH";
-            this.lblTopH.Size = new System.Drawing.Size(79, 20);
+            this.lblTopH.Size = new System.Drawing.Size(78, 20);
             this.lblTopH.TabIndex = 15;
             this.lblTopH.Text = "H";
             this.lblTopH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1783,10 +1782,10 @@
             this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(662, 48);
+            this.label17.Location = new System.Drawing.Point(654, 48);
             this.label17.Margin = new System.Windows.Forms.Padding(0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(21, 57);
+            this.label17.Size = new System.Drawing.Size(29, 57);
             this.label17.TabIndex = 16;
             this.label17.Text = "8";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1797,10 +1796,10 @@
             this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(662, 106);
+            this.label18.Location = new System.Drawing.Point(654, 106);
             this.label18.Margin = new System.Windows.Forms.Padding(0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(21, 57);
+            this.label18.Size = new System.Drawing.Size(29, 57);
             this.label18.TabIndex = 17;
             this.label18.Text = "7";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1811,10 +1810,10 @@
             this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(662, 222);
+            this.label20.Location = new System.Drawing.Point(654, 222);
             this.label20.Margin = new System.Windows.Forms.Padding(0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(21, 57);
+            this.label20.Size = new System.Drawing.Size(29, 57);
             this.label20.TabIndex = 19;
             this.label20.Text = "5";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1825,10 +1824,10 @@
             this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(662, 164);
+            this.label19.Location = new System.Drawing.Point(654, 164);
             this.label19.Margin = new System.Windows.Forms.Padding(0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(21, 57);
+            this.label19.Size = new System.Drawing.Size(29, 57);
             this.label19.TabIndex = 18;
             this.label19.Text = "6";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1839,10 +1838,10 @@
             this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(662, 280);
+            this.label21.Location = new System.Drawing.Point(654, 280);
             this.label21.Margin = new System.Windows.Forms.Padding(0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(21, 57);
+            this.label21.Size = new System.Drawing.Size(29, 57);
             this.label21.TabIndex = 20;
             this.label21.Text = "4";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1853,10 +1852,10 @@
             this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(662, 338);
+            this.label22.Location = new System.Drawing.Point(654, 338);
             this.label22.Margin = new System.Windows.Forms.Padding(0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(21, 57);
+            this.label22.Size = new System.Drawing.Size(29, 57);
             this.label22.TabIndex = 21;
             this.label22.Text = "3";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1867,10 +1866,10 @@
             this.label23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(662, 396);
+            this.label23.Location = new System.Drawing.Point(654, 396);
             this.label23.Margin = new System.Windows.Forms.Padding(0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(21, 57);
+            this.label23.Size = new System.Drawing.Size(29, 57);
             this.label23.TabIndex = 22;
             this.label23.Text = "2";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1881,10 +1880,10 @@
             this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(662, 454);
+            this.label24.Location = new System.Drawing.Point(654, 454);
             this.label24.Margin = new System.Windows.Forms.Padding(0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(21, 57);
+            this.label24.Size = new System.Drawing.Size(29, 57);
             this.label24.TabIndex = 23;
             this.label24.Text = "1";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1898,7 +1897,7 @@
             this.label25.Location = new System.Drawing.Point(22, 512);
             this.label25.Margin = new System.Windows.Forms.Padding(0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(79, 20);
+            this.label25.Size = new System.Drawing.Size(78, 20);
             this.label25.TabIndex = 24;
             this.label25.Text = "A";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1909,10 +1908,10 @@
             this.label26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(102, 512);
+            this.label26.Location = new System.Drawing.Point(101, 512);
             this.label26.Margin = new System.Windows.Forms.Padding(0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(79, 20);
+            this.label26.Size = new System.Drawing.Size(78, 20);
             this.label26.TabIndex = 25;
             this.label26.Text = "B";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1923,10 +1922,10 @@
             this.label27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(182, 512);
+            this.label27.Location = new System.Drawing.Point(180, 512);
             this.label27.Margin = new System.Windows.Forms.Padding(0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(79, 20);
+            this.label27.Size = new System.Drawing.Size(78, 20);
             this.label27.TabIndex = 26;
             this.label27.Text = "C";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1937,10 +1936,10 @@
             this.label28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label28.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(262, 512);
+            this.label28.Location = new System.Drawing.Point(259, 512);
             this.label28.Margin = new System.Windows.Forms.Padding(0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(79, 20);
+            this.label28.Size = new System.Drawing.Size(78, 20);
             this.label28.TabIndex = 27;
             this.label28.Text = "D";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1951,10 +1950,10 @@
             this.label29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label29.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(342, 512);
+            this.label29.Location = new System.Drawing.Point(338, 512);
             this.label29.Margin = new System.Windows.Forms.Padding(0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(79, 20);
+            this.label29.Size = new System.Drawing.Size(78, 20);
             this.label29.TabIndex = 28;
             this.label29.Text = "E";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1965,10 +1964,10 @@
             this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label30.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(422, 512);
+            this.label30.Location = new System.Drawing.Point(417, 512);
             this.label30.Margin = new System.Windows.Forms.Padding(0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(79, 20);
+            this.label30.Size = new System.Drawing.Size(78, 20);
             this.label30.TabIndex = 29;
             this.label30.Text = "F";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1979,10 +1978,10 @@
             this.label31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label31.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(502, 512);
+            this.label31.Location = new System.Drawing.Point(496, 512);
             this.label31.Margin = new System.Windows.Forms.Padding(0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(79, 20);
+            this.label31.Size = new System.Drawing.Size(78, 20);
             this.label31.TabIndex = 30;
             this.label31.Text = "G";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1993,10 +1992,10 @@
             this.label32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label32.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(582, 512);
+            this.label32.Location = new System.Drawing.Point(575, 512);
             this.label32.Margin = new System.Windows.Forms.Padding(0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(79, 20);
+            this.label32.Size = new System.Drawing.Size(78, 20);
             this.label32.TabIndex = 31;
             this.label32.Text = "H";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2053,8 +2052,7 @@
             // 
             this.gameToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiNewGame,
-            this.tsmiReplayGame,
-            this.tsmiReplayGameBackwards});
+            this.tsmiReplayGame});
             this.gameToolStripMenuItem.Name = "gameToolStripMenuItem";
             this.gameToolStripMenuItem.Size = new System.Drawing.Size(50, 21);
             this.gameToolStripMenuItem.Text = "Game";
@@ -2062,23 +2060,16 @@
             // tsmiNewGame
             // 
             this.tsmiNewGame.Name = "tsmiNewGame";
-            this.tsmiNewGame.Size = new System.Drawing.Size(210, 22);
+            this.tsmiNewGame.Size = new System.Drawing.Size(180, 22);
             this.tsmiNewGame.Text = "New Game";
             this.tsmiNewGame.Click += new System.EventHandler(this.OnNewGame);
             // 
             // tsmiReplayGame
             // 
             this.tsmiReplayGame.Name = "tsmiReplayGame";
-            this.tsmiReplayGame.Size = new System.Drawing.Size(210, 22);
+            this.tsmiReplayGame.Size = new System.Drawing.Size(180, 22);
             this.tsmiReplayGame.Text = "Replay Game";
             this.tsmiReplayGame.Click += new System.EventHandler(this.OnReplayGame);
-            // 
-            // tsmiReplayGameBackwards
-            // 
-            this.tsmiReplayGameBackwards.Name = "tsmiReplayGameBackwards";
-            this.tsmiReplayGameBackwards.Size = new System.Drawing.Size(210, 22);
-            this.tsmiReplayGameBackwards.Text = "Replay Game (Backwards)";
-            this.tsmiReplayGameBackwards.Click += new System.EventHandler(this.OnReplayGameBackwards);
             // 
             // A7
             // 
@@ -2086,7 +2077,7 @@
             this.A7.Location = new System.Drawing.Point(22, 106);
             this.A7.Margin = new System.Windows.Forms.Padding(0);
             this.A7.Name = "A7";
-            this.A7.Size = new System.Drawing.Size(79, 57);
+            this.A7.Size = new System.Drawing.Size(78, 57);
             this.A7.TabIndex = 50;
             this.A7.Click += new System.EventHandler(this.OnLocationClicked);
             this.A7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -2097,7 +2088,7 @@
             this.A8.Location = new System.Drawing.Point(22, 48);
             this.A8.Margin = new System.Windows.Forms.Padding(0);
             this.A8.Name = "A8";
-            this.A8.Size = new System.Drawing.Size(79, 57);
+            this.A8.Size = new System.Drawing.Size(78, 57);
             this.A8.TabIndex = 52;
             this.A8.Click += new System.EventHandler(this.OnLocationClicked);
             this.A8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnLocationClicked);
@@ -2295,7 +2286,6 @@
         private System.Windows.Forms.Button White_Pawn_2;
         private System.Windows.Forms.Button White_Pawn_1;
         private System.Windows.Forms.ToolStripMenuItem tsmiReplayGame;
-        private System.Windows.Forms.ToolStripMenuItem tsmiReplayGameBackwards;
         private System.Windows.Forms.ToolStripStatusLabel PlayerText;
     }
 }
